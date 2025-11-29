@@ -1,0 +1,1101 @@
+{
+  "menu": {
+    "title": "Celestia Project",
+    "local_time": "Czas lokalny",
+    "sidebar": {
+      "search_placeholder": "Szukaj funkcji…",
+      "no_results": "Brak wyników dla tego zapytania.",
+      "no_features": "Ten moduł nie ma jeszcze żadnych funkcji.",
+      "feature_enabled": "Funkcja włączona",
+      "toggle_hotkey": "Klawisz aktywacji",
+      "select_feature": "Wybierz funkcję, aby zobaczyć jej ustawienia."
+    },
+    "overlays": {
+      "active_features": "Aktywne funkcje",
+      "fps": "FPS",
+      "teleport": {
+        "title": "Kolejka teleportacji",
+        "current_file": "Plik",
+        "total": "Wszystkie punkty",
+        "visited": "Odwiedzone",
+        "progress": "Postęp",
+        "next_in": "Następny teleport za",
+        "auto_active": "Auto-teleport aktywny"
+      }
+    }
+  },
+  "modules": {
+    "player": "Gracz",
+    "world": "Świat",
+    "teleports": "Teleporty",
+    "visuals": "Wizualne",
+    "misc": "Różne",
+    "settings": "Ustawienia"
+  },
+  "settings": {
+    "tabs": {
+      "general": "Ogólne",
+      "themes": "Motywy",
+      "localization": "Język"
+    },
+    "about": {
+      "name": "O projekcie",
+      "description": "Przegląd Celestia Project",
+      "title": "O Celestia Project",
+      "description_full": "Celestia Project - nowy czit do tej słynnej gry anime :)",
+      "version": "Obecna wersja",
+      "developers": "Deweloperzy",
+      "no_developers": "(Brak listy deweloperów)",
+      "translators": "Tłumacze",
+      "no_translators": "(Brak listy tłumaczy)",
+      "links": "Linki społecznościowe",
+      "github": "Repozytorium GitHub",
+      "discord": "Serwer Discord"
+    },
+    "settings": {
+      "name": "Ustawienia",
+      "description": "Ogólne ustawienia interfejsu"
+    },
+    "general": {
+      "menu_section": "Menu",
+      "open_key": "Klawisz otwierania menu",
+      "show_fps": "Pokaż licznik FPS",
+      "show_status": "Pokaż status funkcji",
+      "show_tp_screen": "Pokaż ekran ładowania TP",
+      "global_hotkeys_section": "Globalne skróty",
+      "toggle_hotkeys": "Włącz/Wyłącz skróty klawiszowe",
+      "status_label": "Status",
+      "status_enabled": "Włączone",
+      "status_disabled": "Wyłączone",
+      "language_section": "Język interfejsu",
+      "language": "Język interfejsu",
+      "language_hint": "Wybierz preferowany język. Zmiany zostaną zastosowane natychmiast.",
+      "language_combo": "Język",
+      "no_languages": "Brak dostępnych języków"
+    },
+    "themes": {
+      "name": "Motywy",
+      "description": "Edytor kolorów interfejsu",
+      "description_full": "Dostosuj wygląd każdego elementu interfejsu.",
+      "reset": "Przywróć domyślne",
+      "table": {
+        "name": "Element",
+        "preview": "Podgląd"
+      },
+      "colors": {
+        "text": "Tekst",
+        "text_disabled": "Tekst nieaktywny",
+        "window_bg": "Tło okna",
+        "child_bg": "Tło podrzędne",
+        "popup_bg": "Tło pop-upa",
+        "border": "Obramowanie",
+        "frame_bg": "Tło ramki",
+        "frame_bg_hovered": "Tło ramki (po najechaniu)",
+        "frame_bg_active": "Tło ramki (aktywne)",
+        "title_bg": "Tło tytułu",
+        "title_bg_active": "Tło tytułu (aktywne)",
+        "menu_bar_bg": "Tło paska menu",
+        "scrollbar_bg": "Tło paska przewijania",
+        "scrollbar_grab": "Suwak paska przewijania",
+        "scrollbar_grab_hovered": "Suwak (po najechaniu)",
+        "scrollbar_grab_active": "Suwak (aktywny)",
+        "check_mark": "Znacznik wyboru",
+        "slider_grab": "Uchwyt suwaka",
+        "slider_grab_active": "Uchwyt suwaka (aktywny)",
+        "button": "Przycisk",
+        "button_hovered": "Przycisk (po najechaniu)",
+        "button_active": "Przycisk (aktywny)",
+        "header": "Nagłówek",
+        "header_hovered": "Nagłówek (po najechaniu)",
+        "header_active": "Nagłówek (aktywny)",
+        "separator": "Separator",
+        "separator_hovered": "Separator (po najechaniu)",
+        "separator_active": "Separator (aktywny)",
+        "resize_grip": "Uchwyt zmiany rozmiaru",
+        "resize_grip_hovered": "Uchwyt zm. rozm. (po najechaniu)",
+        "resize_grip_active": "Uchwyt zm. rozm. (aktywny)",
+        "tab": "Karta",
+        "tab_hovered": "Karta (po najechaniu)",
+        "tab_active": "Karta (aktywna)",
+        "tab_selected": "Karta (wybrana)",
+        "table_header": "Nagłówek tabeli",
+        "table_border_strong": "Obramowanie tabeli (grube)",
+        "table_border_light": "Obramowanie tabeli (cienkie)",
+        "text_selected_bg": "Zaznaczenie tekstu",
+        "drag_drop_target": "Cel przeciągania",
+        "nav_window_highlight": "Podświetlenie nawigacji",
+        "nav_window_dim_bg": "Przyciemnienie tła nawigacji",
+        "modal_dim_bg": "Przyciemnienie tła modala"
+      }
+    },
+    "configs": {
+      "name": "Konfigi",
+      "description": "Menedżer profili",
+      "title": "Konfiguracje",
+      "reset": "Zresetuj konfig",
+      "create": "Utwórz konfig",
+      "save": "Zapisz",
+      "load": "Wczytaj",
+      "delete": "Usuń",
+      "auto_label": "Auto-konfig (zarządzany)",
+      "open_dir": "Otwórz folder z konfigami"
+    },
+    "hotkeys": {
+      "name": "Skróty",
+      "description": "Zarządzanie przypisaniem klawiszy",
+      "search_hint": "Szukaj...",
+      "toggle_label": "Przełącznik",
+      "no_modules": "Brak zarejestrowanych modułów."
+    }
+  },
+  "config": {
+    "widgets": {
+      "toggle_hotkey": "Klawisz aktywacji",
+      "right_click_bindings": "Przypisania pod prawym przyciskiem",
+      "enter_custom_value": "Wpisz własną wartość:"
+    }
+  },
+  "functions": {
+    "world": {
+      "autoloot": {
+        "name": "Auto Loot",
+        "description": "Automatycznie podnosi przedmioty i otwiera skrzynie",
+        "warning": "Uwaga: Wysokie wartości i niskie opóźnienia są ryzykowne!",
+        "sections": {
+          "auto_pickup": "Auto-podnoszenie",
+          "auto_treasure": "Auto-skarby",
+          "custom_range": "Własny zasięg",
+          "looting_speed": "Prędkość zbierania",
+          "pickup_filter": "Filtr podnoszenia"
+        },
+        "options": {
+          "enabled": "Włączone",
+          "auto_disable_when_full": "Wyłącz, gdy ekwipunek jest pełny",
+          "chests": "Skrzynie",
+          "leyline": "Linie geomantyczne",
+          "search_points": "Punkty poszukiwań",
+          "quest_interacts": "Interakcje z zadaniami",
+          "others": "Inne",
+          "use_custom_range": "Użyj własnego zasięgu",
+          "range": "Zasięg (m)",
+          "delay_time": "Czas opóźnienia (ms)",
+          "use_delay_fluctuation": "Zmienne opóźnienie (humanizacja)",
+          "delay_fluctuation": "Wahanie opóźnienia (ms)",
+          "filter_enabled": "Włączone",
+          "filter_animals": "Zwierzęta",
+          "filter_drop_items": "Upuszczone przedmioty",
+          "filter_resources": "Zasoby",
+          "filter_oculus": "Oculusy"
+        },
+        "tooltips": {
+          "auto_pickup": "Automatycznie podnosi leżące przedmioty.\nEkstremalnie ryzykowne przy użyciu własnego zasięgu i niskich opóźnień."
+        },
+        "status": {
+          "title": "Auto Loot"
+        }
+      },
+      "autodestroy": {
+        "name": "Auto-niszczenie obiektów",
+        "description": "Natychmiast niszczy nieożywione obiekty w zasięgu",
+        "warning": "Uwaga: Ta funkcja nie jest w pełni przetestowana pod kątem wykrywalności.\nNiezalecana na głównych kontach lub przy wysokich wartościach.",
+        "options": {
+          "enabled": "Włączone",
+          "ores": "Rudy",
+          "shields": "Tarcze",
+          "doodads": "Elementy otoczenia",
+          "special_objects": "Obiekty specjalne",
+          "special_chests": "Skrzynie specjalne",
+          "range": "Zasięg (m)"
+        },
+        "tooltips": {
+          "ores": "Rudy i warianty, np. Electro Crystals, Crystal Marrow itp.",
+          "shields": "Tarcze magów otchłani, hilichurli, szlamów.",
+          "doodads": "Beczki, skrzynki, wazy itp.",
+          "special_objects": "Niszczy Prawdziwy Lód oraz duże i małe sterty kamieni.",
+          "special_chests": "Niszczy skrzynie w cierniach, zamrożone lub w skałach.",
+          "risk_unknown": "Ryzyko nieznane!"
+        },
+        "status": {
+          "label": "Niszczenie"
+        }
+      },
+      "damageaura": {
+        "name": "Aura obrażeń",
+        "description": "Aura obrażeń ciągle namierza cele wokół ciebie i natychmiast zadaje im hity.\nPrzydatna jako lżejsza alternatywa dla Kill Aury.",
+        "warning": "Może być ryzykowne w endgame.",
+        "options": {
+          "enabled": "Włącz Aurę obrażeń",
+          "only_monsters": "Tylko potwory",
+          "also_gadgets": "Działa też na gadżety",
+          "randomize_delays": "Losowe opóźnienia",
+          "range": "Zasięg (m)",
+          "queue_delay": "Opóźnienie kolejki (ms)",
+          "repeat_delay": "Opóźnienie powtórzenia (ms)",
+          "damage_gauge": "Wskaźnik obrażeń (U)"
+        },
+        "status": {
+          "label": "Aura obrażeń",
+          "monsters": "Potwory",
+          "all_hostiles": "Wszyscy wrogowie",
+          "gadgets_on": "Wł",
+          "gadgets_off": "Wył"
+        }
+      },
+      "mobvacuum": {
+        "name": "Odkurzacz mobów",
+        "description": "Przenosi pobliskich wrogów do twojej postaci",
+        "warning": "",
+        "options": {
+          "include_monsters": "Uwzględnij potwory",
+          "include_animals": "Uwzględnij zwierzęta",
+          "instant_vacuum": "Natychmiastowy odkurzacz",
+          "only_target": "Tylko wrogie/agro",
+          "speed": "Prędkość",
+          "radius": "Promień (m)",
+          "distance": "Dystans (m)"
+        },
+        "tooltips": {
+          "instant_vacuum": "Przyciąga byty natychmiastowo. Jeśli wyłączone, moby będą przyciągane z określoną prędkością.",
+          "only_target": "Jeśli włączone, odkurzacz zadziała tylko na potwory, które cię atakują (mają agro). Nie zadziała na zwierzęta.",
+          "distance": "Odległość między graczem a potworem."
+        }
+      },
+      "killsaura": {
+        "name": "Kill Aura",
+        "description": "Automatycznie zabija wrogów wokół ciebie",
+        "warning": "Może być ryzykowne w endgame",
+        "options": {
+          "type": "Typ Kill Aury",
+          "range": "Zasięg (m)",
+          "attack_delay": "Opóźnienie ataku (ms)",
+          "only_targeted": "Tylko wrogie/agro"
+        },
+        "tooltips": {
+          "type": "'Świat': lepsza w otwartym świecie i bezpieczniejsza, NIE UŻYWAJ W DUNGEONACH!\n'Dungeon': wolniejsza niż 'Świat', ale działa w dungeonach.",
+          "only_targeted": "Jeśli włączone, Kill Aura będzie bić tylko potwory, które mają na tobie agro."
+        },
+        "status": {
+          "label": "Kill Aura"
+        }
+      },
+      "gamespeed": {
+        "name": "Prędkość gry",
+        "description": "Zmienia skalę czasu Unity (Time Scale)",
+        "warning": "OSTRZEŻENIE: NIE używaj tego w Otwartym Świecie (i w endgame), używaj tylko w menu/itp., BARDZO NIEBEZPIECZNE!",
+        "options": {
+          "hotkey_mode": "Tryb klawisza",
+          "hotkey": "Klawisz",
+          "speed_multiplier": "Mnożnik prędkości"
+        },
+        "tooltips": {
+          "hotkey_mode": "Jeśli włączone, prędkość gry jest aktywna tylko przy wciśniętym klawiszu.\nJeśli wyłączone, prędkość gry działa zawsze, gdy funkcja jest włączona.",
+          "speed_multiplier": "Mnożnik prędkości gry. Wyższe wartości = szybsza gra."
+        }
+      },
+      "autoseelie": {
+        "name": "Auto Seelie",
+        "description": "Gdy tylko 'aktywujesz' Seelie po raz pierwszy, automatycznie zacznie ona podążać do celu.",
+        "warning": "",
+        "options": {
+          "speedup": "Przyspieszenie Seelie",
+          "auto_start_range": "Zasięg auto-startu (m)"
+        }
+      },
+      "vacuumloot": {
+        "name": "Przyciąganie lootu",
+        "description": "Automatycznie przyciąga upuszczone przedmioty do gracza",
+        "warning": "",
+        "hotkey_hint": "Klawisz przełącza funkcję globalnie."
+      },
+      "autotalk": {
+        "name": "Auto-dialog",
+        "description": "Automatycznie przeklikuje dialogi",
+        "warning": "Może być ryzykowne przy wysokich wartościach",
+        "options": {
+          "auto_choose": "Automatyczny wybór odpowiedzi",
+          "dialogue_speed": "Prędkość dialogu"
+        },
+        "tooltips": {
+          "auto_choose": "Automatycznie wybiera pierwszą opcję dialogową, gdy pojawi się wybór.",
+          "dialogue_speed": "Kontroluje, jak szybko pojawiają się postacie w dialogu.\n1.0 = normalna prędkość, 10.0 = ~10x szybciej."
+        },
+        "status": {
+          "label": "Auto-dialog",
+          "auto_choose_suffix": " [Auto-wybór]"
+        }
+      },
+      "elementalaura": {
+        "name": "Aura żywiołów",
+        "description": "Stale nakłada żywioł na cele wokół ciebie",
+        "warning": "",
+        "options": {
+          "enabled": "Włącz Aurę żywiołów",
+          "only_targeted": "Tylko wrogie/agro",
+          "hit_objects": "Próbuj trafiać obiekty",
+          "smart_element": "Inteligentny żywioł",
+          "monster_element": "Żywioł nakładany na potwory",
+          "object_element": "Żywioł nakładany na obiekty",
+          "aura_range": "Zasięg aury",
+          "queue_delay": "Opóźnienie kolejki (ms)",
+          "apply_interval": "Interwał nakładania (ms)",
+          "element_durability": "Trwałość żywiołu"
+        },
+        "status": {
+          "label": "Aura żywiołów",
+          "aggro": "Agro",
+          "all": "Wszystkie",
+          "obj": "+Obj",
+          "smart": "Smart",
+          "normal": "Zwykły"
+        },
+        "elements": {
+          "physical": "Fizyczny",
+          "pyro": "Pyro",
+          "hydro": "Hydro",
+          "anemo": "Anemo",
+          "electro": "Electro",
+          "dendro": "Dendro",
+          "cryo": "Cryo",
+          "geo": "Geo",
+          "frozen": "Zamrożenie",
+          "antifire": "Anty-Ogień",
+          "vehicleice": "Lód pojazdu",
+          "mushroom": "Grzyb"
+        }
+      },
+      "skipenhanceanimation": {
+        "name": "Pomiń animację ulepszania",
+        "description": "Przyspiesza dialogi ulepszania broni/artefaktów",
+        "warning": "",
+        "options": {
+          "show_levelup_dialog": "Pokaż dialog awansu poziomu"
+        },
+        "status": {
+          "label": "Animacja ulepszania: %s",
+          "dialog_only": "tylko dialog",
+          "skipped": "pominięta"
+        }
+      },
+      "autochallenge": {
+        "name": "Auto-wyzwania",
+        "description": "Automatycznie zbiera przedmioty w wyzwaniach czasowych",
+        "warning": "",
+        "options": {
+          "enabled": "Włączone",
+          "destroy_bomb": "Niszcz beczki",
+          "risk_unknown": "Ryzyko nieznane!",
+          "range": "Zasięg (m)",
+          "delay": "Opóźnienie (ms)",
+          "custom_challenge": "Własne wyzwanie",
+          "enable_custom": "Włącz własne wyzwanie",
+          "get_gadget_id_hint": "Pobierz ID gadżetu z menedżera bytów (Entity Manager).",
+          "display_name": "Wyświetlana nazwa",
+          "gadget_id": "ID gadżetu",
+          "add": "Dodaj"
+        },
+        "status": {
+          "challenge": "Wyzwanie"
+        },
+        "table": {
+          "display_name": "Wyświetlana nazwa",
+          "gadget_id": "ID gadżetu",
+          "actions": "Akcje",
+          "delete": "Usuń"
+        }
+      },
+      "autocook": {
+        "name": "Auto-gotowanie",
+        "description": "Automatycznie gotuje jedzenie",
+        "warning": "",
+        "options": {
+          "enabled": "Włączone",
+          "enabled_hint": "Szybkie gotowanie, jeśli przepis na to pozwala.\nJeśli szybkie gotowanie jest niedostępne, musisz dodatkowo włączyć 'Szybką Biegłość'.",
+          "fast_proficiency": "Szybka Biegłość",
+          "fast_proficiency_hint": "Szybko wymaksowuje nieopanowany przepis.",
+          "count_item": "Liczba przedmiotów",
+          "count_item_hint": "Ile gotować na raz.\n(Tylko dla trybu standardowego.)",
+          "quality": "Jakość",
+          "quality_hint": "Wybierz jakość ugotowanej potrawy.",
+          "quality_options": {
+            "suspicious": "Podejrzana",
+            "normal": "Zwykła",
+            "delicious": "Wyśmienita"
+          }
+        },
+        "status": {
+          "proficiency": "Auto-gotowanie [Biegłość]",
+          "standard": "Auto-gotowanie [Standard]"
+        }
+      },
+      "autopuzzle": {
+        "name": "Auto-zagadki",
+        "description": "Automatycznie rozwiązuje zagadki",
+        "warning": "",
+        "options": {
+          "enabled": "Auto-zagadki",
+          "enabled_hint": "Auto rozwiązywanie zagadek",
+          "range": "Zasięg (m)",
+          "delay": "Czas opóźnienia (ms)",
+          "general": "Ogólne",
+          "plants": "Rośliny",
+          "seelie": "Seelie",
+          "elem_tablet": "Monument żywiołów",
+          "torch_puzzle": "Zagadka z pochodniami",
+          "wind_slime": "Latający szlam Anemo",
+          "bloatty_floatty": "Bloatty Floatty",
+          "pot": "Dzban",
+          "campfire_torch": "Pochodnia obozowa",
+          "pressure_plate": "Płyta naciskowa",
+          "parametric_transformer": "Parametryczny Transformator",
+          "mondstadt": "Mondstadt",
+          "snow_pile": "Sterta śniegu",
+          "liyue": "Liyue",
+          "windmill_mechanism": "Mechanizm wiatraka",
+          "geogranum": "Geogranum",
+          "inazuma": "Inazuma",
+          "electro_seelie": "Electro Seelie",
+          "lightning_strike_probe": "Sonda Piorunów",
+          "stormstone": "Kamień Burzowy",
+          "electric_conduction": "Przewodnictwo elektryczne",
+          "sumeru": "Sumeru",
+          "dendro_rock": "Skała Dendro",
+          "dendro_pile": "Sterta Dendro",
+          "clusterleaf_of_cultivation": "Clusterleaf of Cultivation",
+          "sumeru_puzzles": "Zagadki Sumeru",
+          "stone_pillar_seal": "Pieczęć kamiennego filaru",
+          "death_zone_point": "Strefa Więdnięcia",
+          "sand_pile": "Sterta piasku",
+          "daily_commission": "Dzienne misje",
+          "daily_commission_hint": "Automatycznie wykonuje niektóre dzienne misje, takie jak czyszczenie plam, liści itp.",
+          "modify_balloon_cart_speed": "Zmień prędkość balonu",
+          "modify_balloon_cart_speed_hint": "Dla dziennej misji: Zasady bezpiecznego transportu",
+          "time_scale": "Skala czasu"
+        },
+        "status": {
+          "auto_puzzle": "Auto-zagadki"
+        }
+      },
+      "autotreefarm": {
+        "name": "Auto-farma drewna",
+        "description": "Automatycznie atakuje drzewa w zasięgu",
+        "warning": "Uwaga. Ta funkcja nie jest w pełni przetestowana pod kątem wykrywalności.\nNiezalecana na głównych kontach lub przy użyciu wysokich wartości.",
+        "options": {
+          "enabled": "Włączone",
+          "enabled_hint": "Automatycznie atakuje drzewa w zasięgu.",
+          "attack_delay": "Opóźnienie ataku (ms)",
+          "attack_delay_hint": "Opóźnienie przed zaatakowaniem następnego drzewa (w ms).",
+          "repeat_delay": "Opóźnienie powtórzenia (ms)",
+          "repeat_delay_hint": "Opóźnienie przed ponownym atakiem tego samego drzewa (w ms).\nWartości <500ms nie będą działać.",
+          "attacks_per_tree": "Ataki na drzewo",
+          "attacks_per_tree_hint": "Liczba ataków na jedno drzewo.\nZalecane ustawienie 10 lub mniej, aby uniknąć bicia pustych drzew.\nUstaw 0 dla nielimitowanych ataków (nawet pustych drzew, ekstremalnie wysokie ryzyko).\nUwaga: Zapamiętane ataki na drzewa resetują się po restarcie gry.",
+          "range": "Zasięg (m)",
+          "range_note": "Zasięg jest programowo ograniczony do ~15m dla bezpieczeństwa."
+        },
+        "status": {
+          "tree_farm": "Farma drewna"
+        }
+      },
+      "dumbenemies": {
+        "name": "Głupi przeciwnicy",
+        "description": "Wrogowie nie będą cię atakować",
+        "warning": "",
+        "options": {}
+      },
+      "autoactivatetp": {
+        "name": "Auto-aktywacja TP",
+        "description": "Automatycznie odblokowuje punkty teleportacji w pobliżu",
+        "warning": "",
+        "options": {}
+      },
+      "musicevent": {
+        "name": "Event muzyczny",
+        "description": "Automatycznie kończy eventy muzyczne z perfekcyjnym wynikiem",
+        "warning": "",
+        "options": {}
+      },
+      "entitymanager": {
+        "name": "Menedżer bytów",
+        "description": "Przeglądaj i zarządzaj wszystkimi bytami (entities) w świecie",
+        "warning": "",
+        "options": {
+          "enabled": "Włączone"
+        },
+        "filters": {
+          "name": "Filtr nazwy",
+          "use_radius": "Filtr zasięgu",
+          "radius": "Promień (m)",
+          "sort_by": "Sortuj według",
+          "sort_by_tooltip": "Wybierz sposób sortowania bytów na liście",
+          "type_filters": "Filtry typów",
+          "select_all": "Zaznacz wszystko",
+          "deselect_all": "Odznacz wszystko",
+          "group_by_type": "Grupuj według typu"
+        },
+        "sort": {
+          "distance": "Dystansu",
+          "name": "Nazwy",
+          "type": "Typu",
+          "runtime_id": "Runtime ID"
+        },
+        "table": {
+          "actions": "Akcje",
+          "runtime_id": "Runtime ID",
+          "config_id": "Config ID",
+          "name": "Nazwa",
+          "type": "Typ",
+          "distance": "Dystans",
+          "position": "Pozycja"
+        },
+        "action": {
+          "summon": "Przyzwij byt do gracza",
+          "teleport": "Teleportuj gracza do bytu",
+          "banish": "Wyślij byt pod ziemię (y=0)"
+        },
+        "entity_count": "Liczba bytów: %zu",
+        "no_entities": "Nie znaleziono bytów"
+      }
+    },
+    "teleports": {
+      "maptp": {
+        "name": "TP na mapie",
+        "description": "Przytrzymaj klawisz TP i kliknij na mapie świata, aby się tam przeteleportować",
+        "warning": "Teleporty mogą być ryzykowne!",
+        "options": {
+          "tp_key": "Klawisz TP",
+          "detect_ground_height": "Wykrywaj wysokość terenu",
+          "use_transport_position": "Użyj pozycji transportu",
+          "fallback_height": "Wysokość domyślna"
+        },
+        "status": {
+          "teleport_key": "Klawisz teleportu: %s",
+          "last": "Ostatni: %.1f / %.1f / %.1f",
+          "teleport_status": "Status teleportu: %s",
+          "running": "W toku",
+          "idle": "Bezczynny",
+          "queued": "W kolejce teleport do %.1f / %.1f / %.1f"
+        }
+      },
+      "custom": {
+        "title": "Własne teleporty",
+        "warning": "Teleporty mogą być ryzykowne!",
+        "options": {
+          "auto_teleport": "Auto-teleport",
+          "intelligent_mode": "Tryb inteligentny",
+          "instant_teleport": "Natychmiastowy teleport",
+          "random_delay": "Losowe opóźnienie",
+          "min_delay": "Min. opóźnienie (s)",
+          "max_delay": "Maks. opóźnienie (s)",
+          "delay": "Opóźnienie (s)"
+        },
+        "tooltips": {
+          "instant_teleport": "Używa bezpośredniego ustawienia pozycji zamiast TP na mapie.\nSzybsze, ale bardziej ryzykowne na długie dystanse."
+        },
+        "hotkeys": {
+          "section": "Skróty",
+          "next_node": "Następny punkt",
+          "prev_node": "Poprzedni punkt",
+          "add_node": "Dodaj punkt"
+        },
+        "files": {
+          "file_name": "Nazwa pliku",
+          "description": "Opis",
+          "create_file": "Utwórz plik",
+          "reload": "Przeładuj",
+          "open_folder": "Otwórz folder",
+          "table": {
+            "current": "Obecny",
+            "name": "Nazwa",
+            "description": "Opis",
+            "actions": "Akcje"
+          },
+          "buttons": {
+            "save": "Zapisz",
+            "reset": "Resetuj",
+            "delete": "Usuń"
+          }
+        },
+        "nodes": {
+          "title": "Punkty (%zu)",
+          "add_current": "Dodaj obecną pozycję",
+          "remove_selected": "Usuń zaznaczone punkty",
+          "radius": "Promień",
+          "remove_nearby": "Usuń pobliskie",
+          "previous_node": "Poprzedni punkt",
+          "next_node": "Następny punkt",
+          "table": {
+            "visited": "Odwiedzone",
+            "x": "X",
+            "y": "Y",
+            "z": "Z",
+            "selected": "Zaznaczone",
+            "actions": "Akcje",
+            "visited_yes": "Tak",
+            "visited_no": "Nie",
+            "teleport": "Teleport",
+            "delete": "Usuń"
+          }
+        },
+        "status": {
+          "progress": "Postęp: %zu / %zu"
+        },
+        "logs": {
+          "avatar_not_loaded": "[WłasneTeleporty] Awatar niezaładowany",
+          "added_node": "[WłasneTeleporty] Dodano punkt w %.2f %.2f %.2f"
+        }
+      },
+      "chesttp": {
+        "name": "TP do skrzyni",
+        "description": "Teleportuje cię do najbliższej zamkniętej skrzyni",
+        "warning": "Teleporty mogą być ryzykowne!",
+        "options": {
+          "tp_key": "Klawisz TP"
+        },
+        "status": {
+          "title": "  Status TP:",
+          "label": "TP do skrzyni: %s",
+          "not_found": "Nie znaleziono"
+        }
+      },
+      "oculitp": {
+        "name": "TP do oculusa",
+        "description": "Teleportuje cię do najbliższego oculusa",
+        "warning": "Teleporty mogą być ryzykowne!",
+        "options": {
+          "tp_key": "Klawisz TP"
+        },
+        "status": {
+          "title": "  Status TP:",
+          "label": "TP do oculusa: %s",
+          "not_found": "Nie znaleziono"
+        }
+      },
+      "questtp": {
+        "name": "TP do zadania",
+        "description": "Teleportuje cię do aktywnego, śledzonego zadania",
+        "warning": "Teleporty mogą być ryzykowne!",
+        "options": {
+          "tp_key": "Klawisz TP"
+        }
+      }
+    },
+    "player": {
+      "worshipstatue": {
+        "name": "Kult statuy",
+        "description": "Szybko ulepsza statuy i zmienia żywioł Podróżnika",
+        "warning": "",
+        "options": {
+          "statue_type": "Typ statuy",
+          "offering_count": "Liczba ofiar",
+          "worship": "Czcij",
+          "traveler_element": "Żywioł Podróżnika",
+          "resonate": "Rezonuj"
+        },
+        "hotkeys": {
+          "section": "Skróty",
+          "anemo": "Rezonuj z Anemo",
+          "geo": "Rezonuj z Geo",
+          "electro": "Rezonuj z Electro",
+          "dendro": "Rezonuj z Dendro",
+          "hydro": "Rezonuj z Hydro"
+        },
+        "status": {
+          "label": "Auto-kult gotowy (%d przedmiotów)"
+        },
+        "statue_types": {
+          "anemoculus": "Anemoculus",
+          "geoculus": "Geoculus",
+          "electroculus": "Electroculus",
+          "dendroculus": "Dendroculus",
+          "hydroculus": "Hydroculus"
+        },
+        "elements": {
+          "wind": "Wiatr",
+          "rock": "Skała",
+          "electric": "Elektryczność",
+          "grass": "Trawa",
+          "hydro": "Hydro"
+        },
+        "messages": {
+          "anemo": "Zarezonowano z żywiołem Anemo!",
+          "geo": "Zarezonowano z żywiołem Geo!",
+          "electro": "Zarezonowano z żywiołem Electro!",
+          "dendro": "Zarezonowano z żywiołem Dendro!",
+          "hydro": "Zarezonowano z żywiołem Hydro!"
+        }
+      },
+      "attackteammate": {
+        "name": "Atakuj sojuszników",
+        "description": "Pozwala atakować sojuszników w trybie kooperacji.",
+        "warning": "",
+        "options": {
+          "enabled": "Włącz pomoc przy Friendly Fire"
+        },
+        "status": {
+          "label": "Pomoc Friendly Fire aktywna"
+        }
+      },
+      "remoteutility": {
+        "name": "Zdalne narzędzia (beta)",
+        "description": "Pomocnicy: crafting, przyzywanie NPC, spawnowanie bytów",
+        "warning": "",
+        "sections": {
+          "crafting": "Crafting",
+          "summon_npc": "Przyzwij NPC",
+          "free_spawn": "Wolny spawn"
+        },
+        "options": {
+          "quick_crafting": "Szybki crafting",
+          "condense_resin": "Skondensuj żywicę",
+          "spawn_alchemy_table": "Zespawnuj stół alchemiczny",
+          "hotkey": "Klawisz",
+          "custom_combine": "Własne łączenie (materiał -> wynik)",
+          "material_id": "ID materiału",
+          "result_id": "ID wyniku",
+          "count": "Liczba",
+          "request_combine": "Żądaj połączenia",
+          "katheryne": "Katheryne",
+          "wagner": "Wagner",
+          "cat_prince": "Koci Książę",
+          "distance": "Dystans (m)",
+          "gadget_id": "ID gadżetu",
+          "spawn_gadget": "Zespawnuj gadżet",
+          "monster_id": "ID potwora",
+          "spawn_monster": "Zespawnuj potwora",
+          "npc_id": "ID NPC",
+          "spawn_npc": "Zespawnuj NPC",
+          "item_id": "ID przedmiotu",
+          "spawn_item": "Zespawnuj przedmiot"
+        },
+        "status": {
+          "label": "Zdalne narzędzia: Żywica[%s] | Alchemia[%s]"
+        },
+        "messages": {
+          "itemmodule_failed": "Nie udało się pobrać singletonu ItemModule (spróbować ponownie?)",
+          "craft_request_sent": "Wysłano żądanie craftingu",
+          "cooking_not_implemented": "Bezpośrednie otwieranie UI gotowania nie jest jeszcze zaimplementowane. Może w przyszłych wersjach."
+        }
+      },
+      "rapidfire": {
+        "name": "Modyfikator ataku",
+        "description": "Powtarza trafienia gracza i opcjonalnie przenosi je na pobliskie cele",
+        "warning": "Może być ryzykowne",
+        "options": {
+          "enabled": "Włącz modyfikator ataku",
+          "multi_hit": "Multi-Hit",
+          "hit_multiplier": "Mnożnik trafień",
+          "multi_target": "Multi-Target",
+          "target_radius": "Promień celu (m)"
+        },
+        "status": {
+          "active": "Modyfikator ataku: aktywny",
+          "multi_hit": "Multi-Hit x%d",
+          "multi_target": "Multi-Target %.1fm"
+        }
+      },
+      "enhancedmovement": {
+        "name": "Ulepszony ruch",
+        "description": "Wzmocnienie skoku i krótki teleport (blink)",
+        "warning": "",
+        "options": {
+          "jump_boost": "Wzmocnienie skoku",
+          "apply_midair": "Używaj w powietrzu",
+          "vertical_velocity": "Prędkość pionowa",
+          "blink_hotkey": "Klawisz blink",
+          "blink_distance": "Dystans blink",
+          "target_blink_key": "Klawisz blink do celu",
+          "target_entities": "Celuj w pobliskie byty",
+          "target_range": "Zasięg wykrywania celu",
+          "directional_keys": "Klawisze kierunkowe",
+          "forward": "Przód",
+          "backward": "Tył",
+          "left": "Lewo",
+          "right": "Prawo"
+        },
+        "status": {
+          "label": "Ulepszony ruch gotowy"
+        }
+      },
+      "noclip": {
+        "name": "Noclip",
+        "description": "Pozwala latać i przenikać przez ściany",
+        "warning": "",
+        "options": {
+          "speed": "Prędkość",
+          "use_alt_speed": "Użyj alternatywnej prędkości",
+          "alt_speed": "Alt. prędkość"
+        }
+      },
+      "infinitystamina": {
+        "name": "Nieskończona wytrzymałość",
+        "description": "Twoja wytrzymałość nigdy się nie kończy",
+        "warning": "",
+        "options": {
+          "infinite_wanderer": "Nieskończony lot Wędrowca"
+        }
+      },
+      "infinityultimate": {
+        "name": "Nieskończone Ulti",
+        "description": "Natychmiast ładuje energię ulta.",
+        "warning": "",
+        "status": {
+          "label": "Nieskończone ulti aktywne"
+        }
+      },
+      "multihit": {
+        "name": "Multi-Hit",
+        "description": "Mnoży twoje ataki",
+        "warning": "Może być ryzykowne w endgame",
+        "options": {
+          "hits": "Uderzenia"
+        }
+      },
+      "playerspeed": {
+        "name": "Prędkość gracza",
+        "description": "Przyspiesza animacje gracza",
+        "warning": "",
+        "options": {
+          "speed": "Prędkość"
+        }
+      },
+      "noskillcd": {
+        "name": "Brak cooldownów",
+        "description": "Usuwa czas odnowienia umiejętności",
+        "warning": "",
+        "options": {
+          "no_sprint_cd": "Brak CD sprintu"
+        }
+      },
+      "walkonwater": {
+        "name": "Chodzenie po wodzie",
+        "description": "Pozwala ci chodzić po wodzie",
+        "warning": ""
+      },
+      "godmode": {
+        "name": "Nieśmiertelność",
+        "description": "Sprawia, że twoja postać jest niezniszczalna (Godmode)",
+        "warning": ""
+      }
+    },
+    "visuals": {
+      "interactivemap": {
+        "name": "Interaktywna mapa",
+        "description": "Podgląd punktów na mapie i śledzenie postępu",
+        "warning": "",
+        "open_hint": "Otwórz mapę gry (klawisz M), aby uzyskać dostęp do pełnego interfejsu interaktywnej mapy.",
+        "window_title": "Interaktywna mapa",
+        "tabs": {
+          "settings": "Ustawienia",
+          "filters": "Filtry"
+        },
+        "scene_label": "Scena",
+        "no_scenes": "Brak dostępnych scen",
+        "options": {
+          "auto_detect_scene": "Automatycznie wykrywaj obecną scenę",
+          "show_overlay": "Pokaż nakładkę podsumowania",
+          "show_completed": "Pokaż ukończone punkty",
+          "show_incomplete": "Pokaż nieukończone punkty",
+          "marker_size": "Rozmiar znacznika"
+        },
+        "labels": {
+          "none": "Ta scena nie ma jeszcze etykiet.",
+          "hidden": "(ukryte)"
+        },
+        "points": {
+          "title": "%s (Scena %u) | %zu punktów",
+          "no_points": "Brak zdefiniowanych punktów dla tej etykiety.",
+          "table": {
+            "id": "ID",
+            "x": "X",
+            "y": "Y",
+            "status": "Status"
+          },
+          "status_completed": "Ukończone",
+          "status_pending": "Oczekujące",
+          "complete_button": "Ukończ",
+          "uncomplete_button": "Cofnij"
+        },
+        "overlay": {
+          "title": "Interaktywna mapa",
+          "scene": "Scena: %s",
+          "label": "Etykieta: %s",
+          "completed": "Ukończono: %zu / %zu",
+          "no_label": "Nie wybrano etykiety"
+        },
+        "scenes": {
+          "3": "Teyvat",
+          "5": "Enkanomiya",
+          "6": "Chasm: Podziemia",
+          "9": "Archipelag Złotego Jabłka"
+        }
+      },
+      "skipcutscene": {
+        "name": "Pomiń cutscenki",
+        "description": "Automatycznie pomija cutscenki i filmy w grze.",
+        "warning": "",
+        "options": {
+          "hotkey_mode": "Tryb klawisza",
+          "toggle_hotkey": "Klawisz przełączania"
+        },
+        "tooltips": {
+          "hotkey_mode": "Jeśli włączone, cutscenki są pomijane tylko przy wciśniętym klawiszu.\nJeśli wyłączone, cutscenki są pomijane zawsze, gdy funkcja jest aktywna."
+        },
+        "status": {
+          "label": "Pomiń cutscenki",
+          "hotkey_suffix": " [Klawisz]"
+        }
+      },
+      "fpsunlock": {
+        "name": "Odblokowanie FPS",
+        "description": "Zdejmuje limit klatek na sekundę",
+        "warning": "",
+        "options": {
+          "target_fps": "Docelowe FPS"
+        }
+      },
+      "fovchanger": {
+        "name": "Zmiana FOV",
+        "description": "Zmienia pole widzenia kamery",
+        "warning": "",
+        "options": {
+          "target_fov": "Docelowe FOV"
+        }
+      },
+      "resincrafter": {
+        "name": "Tworzenie żywicy",
+        "description": "Zdalnie tworzy X szt. 'Skondensowanej Żywicy'.\nUwaga: musisz mieć wystarczająco zasobów",
+        "warning": "",
+        "options": {
+          "resin_pieces": "Kawałki żywicy",
+          "craft": "Stwórz"
+        }
+      },
+      "skinmodifier": {
+        "name": "Modyfikator skinów",
+        "description": "Lokalnie podmienia skiny konkretnych postaci",
+        "warning": "",
+        "status": {
+          "active": "Aktywne podmiany skinów: %d"
+        },
+        "fallback_avatar": "Awatar %u"
+      },
+      "menuunlocker": {
+        "name": "Odblokowanie menu",
+        "description": "Odblokowuje pozycje w menu Paimon i usuwa granice regionów",
+        "warning": "",
+        "options": {
+          "unlock_paimon": "Odblokuj pozycje menu Paimon",
+          "disable_region": "Wyłącz czerwoną granicę regionu"
+        },
+        "status": {
+          "label": "Odblokowanie menu aktywne",
+          "menu_suffix": " | Menu",
+          "region_suffix": " | Region"
+        }
+      },
+      "profilechanger": {
+        "name": "Własny profil",
+        "description": "Zmienia widoczne informacje w profilu i znak wodny",
+        "warning": "",
+        "options": {
+          "override_uid": "Nadpisz znak wodny UID",
+          "uid_value": "Wartość UID",
+          "add_prefix": "Dodaj prefiks \"UID:\"",
+          "bold_style": "Pogrubienie",
+          "italic_style": "Kursywa",
+          "font_size": "Rozmiar czcionki",
+          "position_x": "Pozycja X",
+          "position_y": "Pozycja Y",
+          "update_interval": "Interwał odświeżania (ms)",
+          "override_nickname": "Nadpisz nick",
+          "nickname": "Nick",
+          "override_adventure_rank": "Nadpisz rangę przygody",
+          "adventure_rank_value": "Wartość rangi przygody",
+          "override_world_level": "Nadpisz poziom świata",
+          "world_level_value": "Wartość poziomu świata",
+          "override_exp_text": "Nadpisz tekst doświadczenia",
+          "current_exp": "Obecny EXP",
+          "max_exp": "Maks. EXP",
+          "override_exp_bar": "Nadpisz pasek EXP",
+          "exp_bar_value": "Wartość paska EXP",
+          "custom_avatar_image": "Własny obrazek awatara",
+          "avatar_image_path": "Ścieżka do obrazka awatara",
+          "custom_namecard_image": "Własny obrazek wizytówki",
+          "namecard_image_path": "Ścieżka do obrazka wizytówki"
+        },
+        "hints": {
+          "images": "Obrazy muszą być w formacie PNG (awatar: 256x256, wizytówka: 840x400)."
+        },
+        "status": {
+          "label": "Zmiana profilu aktywna",
+          "uid_suffix": " | UID",
+          "images_suffix": " | Obrazy"
+        }
+      },
+      "graphicschanger": {
+        "name": "Zmiana grafiki",
+        "description": "Zmienia niektóre ustawienia graficzne",
+        "warning": "",
+        "options": {
+          "gamma": "Gamma",
+          "outline_width": "Grubość obrysu",
+          "resolution_scale": "Skala rozdzielczości",
+          "reset": "Resetuj"
+        },
+        "tooltip": {
+          "warning": "Ostrożnie! Wartości powyżej 2.0 mogą crashować grę na słabszych PC. Otwórz i zamknij mapę, aby zastosować."
+        }
+      },
+      "flycloakchanger": {
+        "name": "Zmiana lotni",
+        "description": "Zmienia twoją lotnię. Zmień postać, aby zastosować.",
+        "warning": "",
+        "options": {
+          "selector_label": "Lotnia"
+        },
+        "flycloaks": {
+          "140004": "Skrzydła Lazurowego Wiatru",
+          "140002": "Skrzydła Przyjaźni",
+          "140006": "Skrzydła Maskującego Śniegu",
+          "140014": "Skrzydła Smakołyków",
+          "140003": "Skrzydła Zstąpienia",
+          "140016": "Skrzydła Splecionych Losów",
+          "140007": "Skrzydła Uczty",
+          "140001": "Skrzydła Pierwszego Lotu",
+          "140005": "Skrzydła Złotego Lotu",
+          "140012": "Skrzydła Wód Miłosiernych i Gniewnych",
+          "140009": "Skrzydła Lśniącej Galaktyki",
+          "140015": "Skrzydła Szybującego Płomienia",
+          "140010": "Skrzydła Lasu",
+          "140011": "Skrzydła Gwiezdnej Uczty",
+          "140008": "Skrzydła Jeźdźca Burzy",
+          "140013": "Skrzydła Ulotnych Snów"
+        }
+      },
+      "uncensor": {
+        "name": "Usuń cenzurę",
+        "description": "Usuwa cenzurę kamery pod pewnymi kątami",
+        "warning": ""
+      },
+      "openteamimmediately": {
+        "name": "Natychmiastowe otwarcie zespołu",
+        "description": "Pozwala natychmiast otworzyć konfigurację zespołu",
+        "warning": ""
+      },
+      "instantbowcharge": {
+        "name": "Natychmiastowy łuk",
+        "description": "Natychmiast w pełni ładuje strzał z łuku",
+        "warning": ""
+      },
+      "hidedamage": {
+        "name": "Ukryj tekst obrażeń",
+        "description": "Ukrywa wyskakujące cyfry obrażeń",
+        "warning": "Może nie działać :("
+      },
+      "constchanger": {
+        "name": "Odblokowanie C6",
+        "description": "Odblokowuje C6 twojej postaci. Zmień postać, aby zastosować.\nWiększość konstelacji nie da prawdziwego efektu, chociaż niektóre zadziałają. Nie zgłaszaj tego jako błąd.",
+        "warning": "WYŁĄCZ PRZED WEJŚCIEM DO ENDGAME!"
+      }
+    }
+  }
+}

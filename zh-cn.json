@@ -1,0 +1,1100 @@
+{
+  "menu": {
+    "title": "Celestia Project",
+    "local_time": "当前时间",
+    "sidebar": {
+      "search_placeholder": "搜索…",
+      "no_results": "当前查询没有结果。",
+      "no_features": "该模块尚未添加任何功能。",
+      "feature_enabled": "已启用功能",
+      "toggle_hotkey": "切换快捷键",
+      "select_feature": "选择一项功能以查看其选项。"
+    },
+    "overlays": {
+      "active_features": "生效功能",
+      "fps": "FPS",
+      "teleport": {
+        "title": "传送队列",
+        "current_file": "文件",
+        "total": "总点位",
+        "visited": "已访问",
+        "progress": "进程",
+        "next_in": "下一传送点",
+        "auto_active": "自动传送已激活"
+      }
+    }
+  },
+  "modules": {
+    "player": "玩家",
+    "world": "世界",
+    "teleports": "传送",
+    "visuals": "视图",
+    "misc": "其它",
+    "settings": "设置"
+  },
+  "settings": {
+    "tabs": {
+      "general": "通用",
+      "themes": "主题",
+      "localization": "本地化"
+    },
+    "about": {
+      "name": "关于",
+      "description": "Celestia Project概述",
+      "title": "关于Celestia Project",
+      "description_full": "Celestia Project - new cheat for some certain anime game :)",
+      "version": "当前版本",
+      "developers": "开发者",
+      "no_developers": "(没有列出任何开发者)",
+      "translators": "翻译者",
+      "no_translators": "(没有列出任何翻译者)",
+      "links": "社区链接",
+      "github": "GitHub仓库",
+      "discord": "Discord服务器"
+    },
+    "settings": {
+      "name": "设置",
+      "description": "通用UI设置"
+    },
+    "general": {
+      "menu_section": "菜单",
+      "open_key": "菜单打开键",
+      "show_fps": "显示帧率",
+      "show_status": "显示功能状态",
+      "show_tp_screen": "显示传送加载界面",
+      "global_hotkeys_section": "全局热键",
+      "toggle_hotkeys": "切换热键",
+      "status_label": "状态",
+      "status_enabled": "已启用",
+      "status_disabled": "已禁用",
+      "language_section": "界面语言",
+      "language": "界面语言",
+      "language_hint": "选择首选语言。更改立即生效。",
+      "language_combo": "语言",
+      "no_languages": "无可用语言。"
+    },
+    "themes": {
+      "name": "主题",
+      "description": "UI颜色编辑器",
+      "description_full": "自定义每个用户界面元素的外观。",
+      "reset": "重置为默认值",
+      "table": {
+        "name": "元素",
+        "preview": "预览"
+      },
+      "colors": {
+        "text": "文本",
+        "text_disabled": "已禁用文本",
+        "window_bg": "窗口背景",
+        "child_bg": "组件背景",
+        "popup_bg": "弹出窗口背景",
+        "border": "Border",
+        "frame_bg": "Frame background",
+        "frame_bg_hovered": "Frame background (hovered)",
+        "frame_bg_active": "Frame background (active)",
+        "title_bg": "Title background",
+        "title_bg_active": "Title background (active)",
+        "menu_bar_bg": "Menu bar background",
+        "scrollbar_bg": "Scrollbar background",
+        "scrollbar_grab": "Scrollbar grab",
+        "scrollbar_grab_hovered": "Scrollbar grab (hovered)",
+        "scrollbar_grab_active": "Scrollbar grab (active)",
+        "check_mark": "Check mark",
+        "slider_grab": "Slider grab",
+        "slider_grab_active": "Slider grab (active)",
+        "button": "Button",
+        "button_hovered": "Button (hovered)",
+        "button_active": "Button (active)",
+        "header": "Header",
+        "header_hovered": "Header (hovered)",
+        "header_active": "Header (active)",
+        "separator": "Separator",
+        "separator_hovered": "Separator (hovered)",
+        "separator_active": "Separator (active)",
+        "resize_grip": "Resize grip",
+        "resize_grip_hovered": "Resize grip (hovered)",
+        "resize_grip_active": "Resize grip (active)",
+        "tab": "Tab",
+        "tab_hovered": "Tab (hovered)",
+        "tab_active": "Tab (active)",
+        "tab_selected": "Tab (selected)",
+        "table_header": "Table header",
+        "table_border_strong": "Table border (strong)",
+        "table_border_light": "Table border (light)",
+        "text_selected_bg": "Text selection",
+        "drag_drop_target": "Drag & drop target",
+        "nav_window_highlight": "Nav highlight",
+        "nav_window_dim_bg": "Nav dim background",
+        "modal_dim_bg": "Modal dim background"
+      }
+    },
+    "configs": {
+      "name": "配置",
+      "description": "配置文件管理器",
+      "title": "配置",
+      "reset": "重置配置",
+      "create": "创建配置",
+      "save": "保存",
+      "load": "加载",
+      "delete": "删除",
+      "auto_label": "自动配置（托管型）",
+      "open_dir": "打开配置文件夹"
+    },
+    "hotkeys": {
+      "name": "热键",
+      "description": "管理功能绑定",
+      "search_hint": "搜索...",
+      "toggle_label": "切换",
+      "no_modules": "未注册任何模块。"
+    }
+  },
+  "config": {
+    "widgets": {
+      "toggle_hotkey": "切换热键",
+      "right_click_bindings": "右键绑定",
+      "enter_custom_value": "请输入自定义值："
+    }
+  },
+  "functions": {
+    "world": {
+      "autoloot": {
+        "name": "自动收集",
+        "description": "自动拾取物品并打开宝箱",
+        "warning": "注意：高数值与低延迟存在风险！",
+        "sections": {
+          "auto_pickup": "自动拾取",
+          "auto_treasure": "自动交互",
+          "custom_range": "自定义范围",
+          "looting_speed": "拾取速度",
+          "pickup_filter": "拾取过滤"
+        },
+        "options": {
+          "enabled": "已启用",
+          "auto_disable_when_full": "当背包上限时自动关闭",
+          "chests": "宝箱",
+          "leyline": "地脉花",
+          "search_points": "调查点",
+          "quest_interacts": "任务交互点",
+          "others": "其他",
+          "use_custom_range": "使用自定义范围",
+          "range": "范围 (米)",
+          "delay_time": "延迟时间(毫秒)",
+          "use_delay_fluctuation": "使用随机延迟",
+          "delay_fluctuation": "随机延迟(ms)",
+          "filter_animals": "动物",
+          "filter_drop_items": "掉落道具",
+          "filter_resources": "资源",
+          "filter_oculus": "神瞳"
+        },
+        "tooltips": {
+          "auto_pickup": "自动拾取掉落的物品。\n用于范围拾取和低延迟的拾取是高风险的。"
+        },
+        "status": {
+          "title": "自动收集"
+        }
+      },
+      "autodestroy": {
+        "name": "自动摧毁物体",
+        "description": "自动摧毁范围内的 非生物 物体。",
+        "warning": "注意：此功能未经过充足的测试。\n不建议在主账号上使用，或使用过高的数值。",
+        "options": {
+          "enabled": "已启用",
+          "ores": "矿物",
+          "shields": "护盾",
+          "doodads": "杂物",
+          "special_objects": "特殊对象",
+          "special_chests": "特殊宝箱",
+          "range": "范围 (米)"
+        },
+        "tooltips": {
+          "ores": "矿物及其变种，如：电气水晶、晶化骨髓等。",
+          "shields": "深渊法师/深渊使徒/史莱姆 的护盾",
+          "doodads": "桶、箱、花瓶等。",
+          "special_objects": "摧毁 雪山大冰块、大小石堆。",
+          "special_chests": "摧毁 宝箱上的荆棘、冰块、石头。",
+          "risk_unknown": "风险未知!"
+        },
+        "status": {
+          "label": "摧毁"
+        }
+      },
+      "damageaura": {
+        "name": "伤害光环",
+        "description": "伤害光环持续在你周围构建打击目标列表，并施加瞬发打击。\n作为“杀戮光环”的更轻量化替代方案，实用性颇佳。",
+        "warning": "在后期阶段可能存在风险。",
+        "options": {
+          "enabled": "启用伤害光环",
+          "only_monsters": "仅怪物",
+          "also_gadgets": "也影响小工具",
+          "randomize_delays": "随机延迟",
+          "range": "范围 (米)",
+          "queue_delay": "队列延迟 (毫秒)",
+          "repeat_delay": "重复延迟 (毫秒)",
+          "damage_gauge": "伤害计数器 (U)"
+        },
+        "status": {
+          "label": "伤害光环",
+          "monsters": "怪物",
+          "all_hostiles": "所有敌对势力",
+          "gadgets_on": "开",
+          "gadgets_off": "关"
+        }
+      },
+      "mobvacuum": {
+        "name": "生物吸附",
+        "description": "将附近的敌人移至你的角色身边",
+        "warning": "",
+        "options": {
+          "include_monsters": "包括怪物",
+          "include_animals": "包括动物",
+          "instant_vacuum": "瞬间吸附",
+          "only_target": "只作用于仇恨在你身上的对象",
+          "speed": "速度",
+          "radius": "范围 (米)",
+          "distance": "距离(米)"
+        },
+        "tooltips": {
+          "instant_vacuum": "立即吸入实体。若禁用此功能，生物将按指定速度被吸入。",
+          "only_target": "若启用此功能，吸附效果仅对锁定你的怪物生效，不会影响动物。",
+          "distance": "玩家与怪物之间的距离。"
+        }
+      },
+      "killsaura": {
+        "name": "杀戮光环",
+        "description": "自动消灭周围的敌人",
+        "warning": "在后期可能存在风险",
+        "options": {
+          "type": "杀戮光环类型",
+          "range": "范围 (米)",
+          "attack_delay": "攻击间隔(毫秒)",
+          "only_targeted": "只作用于仇恨在你身上的对象"
+        },
+        "tooltips": {
+          "type": "'Overworld': better in world and safer, DON'T USE IN DUNGEONS!\n'Dungeon': slower than 'Overworld', but works in dungeons.",
+          "only_targeted": "启用后，杀戮光环只会影响对你有仇恨的怪物。"
+        },
+        "status": {
+          "label": "杀戮光环"
+        }
+      },
+      "gamespeed": {
+        "name": "全局加速",
+        "description": "调整Unity时间尺度",
+        "warning": "警告: 不要在开放世界(and endgame)中使用，只能在菜单等地方使用，风险极高!",
+        "options": {
+          "hotkey_mode": "热键模式",
+          "hotkey": "热键",
+          "speed_multiplier": "攻击速度倍率"
+        },
+        "tooltips": {
+          "hotkey_mode": "启用后，全局加速仅在按下热键时生效。\n禁用时，启用该功能后全局加速将始终保持激活状态。",
+          "speed_multiplier": "游戏时间加速倍率。 更高的倍率 = 更快的游戏。"
+        }
+      },
+      "autoseelie": {
+        "name": "自动仙灵",
+        "description": "一旦你首次“激活”仙灵，它就会自动前往目标位置。",
+        "warning": "",
+        "options": {
+          "speedup": "加速仙灵",
+          "auto_start_range": "自动开始范围 (米)"
+        }
+      },
+      "vacuumloot": {
+        "name": "掉落物吸附",
+        "description": "自动将掉落物吸附至玩家处",
+        "warning": "",
+        "hotkey_hint": "热键可全局切换该功能。"
+      },
+      "autotalk": {
+        "name": "自动对话",
+        "description": "自动进行对话",
+        "warning": "高数值下可能存在风险",
+        "options": {
+          "auto_choose": "自动选择回复",
+          "dialogue_speed": "对话速度"
+        },
+        "tooltips": {
+          "auto_choose": "当出现选项时，自动选择第一个对话选项。",
+          "dialogue_speed": "控制对话中字符的出现速度。\n1.0 = 正常速度, 10.0 = ~10x 加速."
+        },
+        "status": {
+          "label": "自动对话",
+          "auto_choose_suffix": " [自动选择]"
+        }
+      },
+      "elementalaura": {
+        "name": "元素光环",
+        "description": "不断将元素应用于您周围的目标。",
+        "warning": "",
+        "options": {
+          "enabled": "启用元素光环",
+          "only_targeted": "只作用于仇恨在你身上的对象",
+          "hit_objects": "尝试击中所有物体",
+          "smart_element": "智慧元素",
+          "monster_element": "应用于怪物的元素",
+          "object_element": "应用于物体的元素",
+          "aura_range": "光环作用范围",
+          "queue_delay": "队列延迟 (毫秒)",
+          "apply_interval": "应用间隔 (毫秒)",
+          "element_durability": "元素耐久性"
+        },
+        "status": {
+          "label": "元素光环",
+          "aggro": "仇恨",
+          "all": "所有",
+          "obj": "+物体",
+          "smart": "智能",
+          "normal": "普通"
+        },
+        "elements": {
+          "physical": "无元素",
+          "pyro": "火",
+          "hydro": "水",
+          "anemo": "风",
+          "electro": "雷",
+          "dendro": "草",
+          "cryo": "冰",
+          "geo": "岩",
+          "frozen": "冰封",
+          "antifire": "免疫",
+          "vehicleice": "VehicleIce",
+          "mushroom": "蘑菇"
+        }
+      },
+      "skipenhanceanimation": {
+        "name": "跳过强化动画",
+        "description": "加快武器/圣遗物强化对话框的显示速度",
+        "warning": "",
+        "options": {
+          "show_levelup_dialog": "显示升级信息对话框"
+        },
+        "status": {
+          "label": "强化动画: %s",
+          "dialog_only": "仅对话框",
+          "skipped": "已跳过"
+        }
+      },
+      "autochallenge": {
+        "name": "自动挑战",
+        "description": "自动收集限时挑战道具",
+        "warning": "",
+        "options": {
+          "enabled": "启用",
+          "destroy_bomb": "引爆炸药桶",
+          "risk_unknown": "风险未知!",
+          "range": "范围 (米)",
+          "delay": "延迟 (毫秒)",
+          "custom_challenge": "自定义挑战",
+          "enable_custom": "启用自定义挑战",
+          "get_gadget_id_hint": "从实体管理器里面获取Gadget ID",
+          "display_name": "显示的名称",
+          "gadget_id": "Gadget Id",
+          "add": "添加"
+        },
+        "status": {
+          "challenge": "挑战"
+        },
+        "table": {
+          "display_name": "显示的名称",
+          "gadget_id": "Gadget Id",
+          "actions": "行为",
+          "delete": "删除"
+        }
+      },
+      "autocook": {
+        "name": "自动烹饪",
+        "description": "自动烹饪食物",
+        "warning": "",
+        "options": {
+          "enabled": "启用",
+          "enabled_hint": "自动烹饪，如果食谱已经解锁自动烹饪。\n如果未解锁自动烹饪，你需要打开 快速熟练。",
+          "fast_proficiency": "快速熟练",
+          "fast_proficiency_hint": "尽可能快速的将一份未解锁自动烹饪的食物解锁自动烹饪。",
+          "count_item": "数量",
+          "count_item_hint": "一次烹饪多少。\n(仅适用于标准模式。)",
+          "quality": "质量",
+          "quality_hint": "选择烹饪结果的质量",
+          "quality_options": {
+            "suspicious": "奇怪的",
+            "normal": "普通",
+            "delicious": "美味的"
+          }
+        },
+        "status": {
+          "proficiency": "自动烹饪 [熟练程度]",
+          "standard": "自动烹饪 [标准]"
+        }
+      },
+      "autopuzzle": {
+        "name": "自动解谜",
+        "description": "自动解谜",
+        "warning": "",
+        "options": {
+          "enabled": "启用",
+          "enabled_hint": "自动解谜",
+          "range": "范围 (米)",
+          "delay": "延迟 (毫秒)",
+          "general": "通用",
+          "plants": "植物",
+          "seelie": "仙灵",
+          "elem_tablet": "元素方碑",
+          "torch_puzzle": "火炬解谜",
+          "wind_slime": "风史莱姆",
+          "bloatty_floatty": "蓬蓬果",
+          "pot": "锅",
+          "campfire_torch": "火炬",
+          "pressure_plate": "压力石板",
+          "parametric_transformer": "参量质变仪",
+          "mondstadt": "蒙德",
+          "snow_pile": "雪堆",
+          "liyue": "璃月",
+          "windmill_mechanism": "风车",
+          "geogranum": "岩种子",
+          "inazuma": "稻妻",
+          "electro_seelie": "雷灵",
+          "lightning_strike_probe": "雷霆探针",
+          "stormstone": "「雷石」",
+          "electric_conduction": "电气传导",
+          "sumeru": "须弥",
+          "dendro_rock": "草石块",
+          "dendro_pile": "三相众物",
+          "clusterleaf_of_cultivation": "众叶觉蕊",
+          "sumeru_puzzles": "须弥解密",
+          "stone_pillar_seal": "石柱封印",
+          "death_zone_point": "死域瘤",
+          "sand_pile": "松散的沙堆",
+          "daily_commission": "每日委托",
+          "daily_commission_hint": "自动解决一些每日委托，如清洁污渍、落叶等。",
+          "modify_balloon_cart_speed": "修改气球车速度",
+          "modify_balloon_cart_speed_hint": "每日委托：安全运输规则",
+          "time_scale": "时间尺度"
+        },
+        "status": {
+          "auto_puzzle": "自动解谜"
+        }
+      },
+      "autotreefarm": {
+        "name": "自动砍树",
+        "description": "自动攻击范围内的树木",
+        "warning": "注意：这功能未经过充足的测试。\n不建议在主账号上使用，或使用过高的数值。",
+        "options": {
+          "enabled": "启用",
+          "enabled_hint": "自动攻击范围内的树木",
+          "attack_delay": "攻击间隔 (毫秒)",
+          "attack_delay_hint": "攻击下一颗树前的时间间隔(单位:毫秒)",
+          "repeat_delay": "重复间隔 (毫秒)",
+          "repeat_delay_hint": "攻击同一颗树前的时间间隔(单位：毫秒)。\n数值小于 500毫秒 将不生效。",
+          "attacks_per_tree": "每颗树攻击次数",
+          "attacks_per_tree_hint": "一棵树的攻击次数。\n建议设置为10以及更低以避免攻击空树，\n数值设置为0则为无限攻击(即使是空树，无限攻击也是高风险)。\n注意：树的攻击次数在游戏重启后重置。",
+          "range": "范围 (米)",
+          "range_note": "出于安全目的，范围被软限制在 0~15m。"
+        },
+        "status": {
+          "tree_farm": "自动砍树"
+        }
+      },
+      "dumbenemies": {
+        "name": "敌人变傻",
+        "description": "敌人将不会攻击你",
+        "warning": "",
+        "options": {}
+      },
+      "autoactivatetp": {
+        "name": "自动激活传送点",
+        "description": "自动解锁附近的传送点",
+        "warning": "",
+        "options": {}
+      },
+      "musicevent": {
+        "name": "音乐活动",
+        "description": "自动完成音乐活动并获得满分",
+        "warning": "",
+        "options": {}
+      },
+      "entitymanager": {
+        "name": "实体管理器",
+        "description": "查看并管理世界中的所有实体",
+        "warning": "",
+        "options": {
+          "enabled": "启用"
+        },
+        "filters": {
+          "name": "名称筛选器",
+          "use_radius": "按半径过滤",
+          "radius": "范围 (米)",
+          "sort_by": "排序方式",
+          "sort_by_tooltip": "选择列表中实体的排序方式",
+          "type_filters": "过滤类型",
+          "select_all": ",全选",
+          "deselect_all": "全部取消选择",
+          "group_by_type": "按类型分组"
+        },
+        "sort": {
+          "distance": "距离",
+          "name": "名称",
+          "type": "类型",
+          "runtime_id": "运行时ID"
+        },
+        "table": {
+          "actions": "行为",
+          "runtime_id": "运行时ID",
+          "config_id": "配置ID",
+          "name": "名称",
+          "type": "类型",
+          "distance": "距离",
+          "position": "位置"
+        },
+        "action": {
+          "summon": "召唤实体至玩家处",
+          "teleport": "传送玩家至实体处",
+          "banish": "将实体移至地面 (y=0)"
+        },
+        "entity_count": "实体数量: %zu",
+        "no_entities": "未找到任何实体"
+      }
+    },
+    "teleports": {
+      "maptp": {
+        "name": "Map TP",
+        "description": "Hold TP key and click on the world map to teleport to that location",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key",
+          "detect_ground_height": "Detect ground height",
+          "use_transport_position": "Use transport position",
+          "fallback_height": "Fallback height"
+        },
+        "status": {
+          "teleport_key": "Teleport key: %s",
+          "last": "Last: %.1f / %.1f / %.1f",
+          "teleport_status": "Teleport status: %s",
+          "running": "Running",
+          "idle": "Idle",
+          "queued": "Queued teleport to %.1f / %.1f / %.1f"
+        }
+      },
+      "custom": {
+        "title": "Custom Teleports",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "auto_teleport": "Auto teleport",
+          "intelligent_mode": "Intelligent mode",
+          "instant_teleport": "Instant teleport",
+          "random_delay": "Random delay",
+          "min_delay": "Min delay (s)",
+          "max_delay": "Max delay (s)",
+          "delay": "Delay (s)"
+        },
+        "tooltips": {
+          "instant_teleport": "Use direct position setting instead of MapTP.\nFaster but riskier for long distances."
+        },
+        "hotkeys": {
+          "section": "Hotkeys",
+          "next_node": "Next node",
+          "prev_node": "Previous node",
+          "add_node": "Add node"
+        },
+        "files": {
+          "file_name": "File name",
+          "description": "Description",
+          "create_file": "Create file",
+          "reload": "Reload",
+          "open_folder": "Open folder",
+          "table": {
+            "current": "Current",
+            "name": "Name",
+            "description": "Description",
+            "actions": "Actions"
+          },
+          "buttons": {
+            "save": "Save",
+            "reset": "Reset",
+            "delete": "Delete"
+          }
+        },
+        "nodes": {
+          "title": "Nodes (%zu)",
+          "add_current": "Add current position",
+          "remove_selected": "Remove selected nodes",
+          "radius": "Radius",
+          "remove_nearby": "Remove nearby",
+          "previous_node": "Previous node",
+          "next_node": "Next node",
+          "table": {
+            "visited": "Visited",
+            "x": "X",
+            "y": "Y",
+            "z": "Z",
+            "selected": "Selected",
+            "actions": "Actions",
+            "visited_yes": "Yes",
+            "visited_no": "No",
+            "teleport": "Teleport",
+            "delete": "Delete"
+          }
+        },
+        "status": {
+          "progress": "Progress: %zu / %zu"
+        },
+        "logs": {
+          "avatar_not_loaded": "[CustomTeleports] Avatar not loaded",
+          "added_node": "[CustomTeleports] Added node at %.2f %.2f %.2f"
+        }
+      },
+      "chesttp": {
+        "name": "Chest TP",
+        "description": "Teleports you to closest closed chest",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key"
+        },
+        "status": {
+          "title": "  TP Status:",
+          "label": "Chest TP: %s",
+          "not_found": "Not found"
+        }
+      },
+      "oculitp": {
+        "name": "Oculi TP",
+        "description": "Teleports you to closest oculus",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key"
+        },
+        "status": {
+          "title": "  TP Status:",
+          "label": "Oculi TP: %s",
+          "not_found": "Not found"
+        }
+      },
+      "questtp": {
+        "name": "Quest TP",
+        "description": "Teleports you to active tracked quest",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key"
+        }
+      }
+    },
+    "player": {
+      "worshipstatue": {
+        "name": "Worship Statue",
+        "description": "Quickly level up statues and change Traveler element",
+        "warning": "",
+        "options": {
+          "statue_type": "Statue type",
+          "offering_count": "Offering count",
+          "worship": "Worship",
+          "traveler_element": "Traveler element",
+          "resonate": "Resonate"
+        },
+        "hotkeys": {
+          "section": "Hotkeys",
+          "anemo": "Resonate Anemo",
+          "geo": "Resonate Geo",
+          "electro": "Resonate Electro",
+          "dendro": "Resonate Dendro",
+          "hydro": "Resonate Hydro"
+        },
+        "status": {
+          "label": "Auto-worship ready (%d items)"
+        },
+        "statue_types": {
+          "anemoculus": "Anemoculus",
+          "geoculus": "Geoculus",
+          "electroculus": "Electroculus",
+          "dendroculus": "Dendroculus",
+          "hydroculus": "Hydroculus"
+        },
+        "elements": {
+          "wind": "Wind",
+          "rock": "Rock",
+          "electric": "Electric",
+          "grass": "Grass",
+          "hydro": "Hydro"
+        },
+        "messages": {
+          "anemo": "Resonated with the Anemo element!",
+          "geo": "Resonated with the Geo element!",
+          "electro": "Resonated with the Electro element!",
+          "dendro": "Resonated with the Dendro element!",
+          "hydro": "Resonated with the Hydro element!"
+        }
+      },
+      "attackteammate": {
+        "name": "Attack Teammates",
+        "description": "Allows you to attack your teammates in coop-mode..",
+        "warning": "",
+        "options": {
+          "enabled": "Enable friendly fire helper"
+        },
+        "status": {
+          "label": "Friendly fire helpers active"
+        }
+      },
+      "remoteutility": {
+        "name": "Remote Utility (beta)",
+        "description": "Utility helpers: crafting, NPC summoning, entity spawning",
+        "warning": "",
+        "sections": {
+          "crafting": "Crafting",
+          "summon_npc": "Summon NPC",
+          "free_spawn": "Free spawn"
+        },
+        "options": {
+          "quick_crafting": "Quick crafting",
+          "condense_resin": "Condense Resin",
+          "spawn_alchemy_table": "Spawn Alchemy Table",
+          "hotkey": "Hotkey",
+          "custom_combine": "Custom combine (material -> result)",
+          "material_id": "Material ID",
+          "result_id": "Result ID",
+          "count": "Count",
+          "request_combine": "Request combine",
+          "katheryne": "Katheryne",
+          "wagner": "Wagner",
+          "cat_prince": "Cat Prince",
+          "distance": "Distance (m)",
+          "gadget_id": "Gadget ID",
+          "spawn_gadget": "Spawn Gadget",
+          "monster_id": "Monster ID",
+          "spawn_monster": "Spawn Monster",
+          "npc_id": "NPC ID",
+          "spawn_npc": "Spawn NPC",
+          "item_id": "Item ID",
+          "spawn_item": "Spawn Item"
+        },
+        "status": {
+          "label": "RemoteUtility: Condense[%s] | Alchemy[%s]"
+        },
+        "messages": {
+          "itemmodule_failed": "Failed to obtain ItemModule singleton (try again?)",
+          "craft_request_sent": "Craft request sent",
+          "cooking_not_implemented": "Direct Cooking UI opening is not implemented yet. Maybe it will be in future versions."
+        }
+      },
+      "rapidfire": {
+        "name": "Attack Modifier",
+        "description": "Repeats player hits and optionally propagates them to nearby targets",
+        "warning": "Can be risky",
+        "options": {
+          "enabled": "Enable attack modifier",
+          "multi_hit": "Multi-hit",
+          "hit_multiplier": "Hit multiplier",
+          "multi_target": "Multi-target",
+          "target_radius": "Target radius (m)"
+        },
+        "status": {
+          "active": "Attack Modifier: active",
+          "multi_hit": "Multi-Hit x%d",
+          "multi_target": "Multi-Target %.1fm"
+        }
+      },
+      "enhancedmovement": {
+        "name": "Enhanced Movement",
+        "description": "Jump boost and short-range blink movement",
+        "warning": "",
+        "options": {
+          "jump_boost": "Jump boost",
+          "apply_midair": "Apply mid-air",
+          "vertical_velocity": "Vertical velocity",
+          "blink_hotkey": "Blink hotkey",
+          "blink_distance": "Blink distance",
+          "target_blink_key": "Target blink key",
+          "target_entities": "Target nearby entities",
+          "target_range": "Target detection range",
+          "directional_keys": "Directional keys",
+          "forward": "Forward",
+          "backward": "Backward",
+          "left": "Left",
+          "right": "Right"
+        },
+        "status": {
+          "label": "Enhanced Movement ready"
+        }
+      },
+      "noclip": {
+        "name": "Noclip",
+        "description": "Lets you fly",
+        "warning": "",
+        "options": {
+          "speed": "Speed",
+          "use_alt_speed": "Use alt. speed",
+          "alt_speed": "Alt. Speed"
+        }
+      },
+      "infinitystamina": {
+        "name": "Infinite Stamina",
+        "description": "Makes your stamina infinite",
+        "warning": "",
+        "options": {
+          "infinite_wanderer": "Infinite Wanderer flight"
+        }
+      },
+      "infinityultimate": {
+        "name": "Infinite Ultimate",
+        "description": "Charges ult energy immediately.",
+        "warning": "",
+        "status": {
+          "label": "Infinite ultimate active"
+        }
+      },
+      "multihit": {
+        "name": "MultiHit",
+        "description": "Multiplies your attacks",
+        "warning": "Can be risky in endgame",
+        "options": {
+          "hits": "Hits"
+        }
+      },
+      "playerspeed": {
+        "name": "Player speed",
+        "description": "Speeds up player animations",
+        "warning": "",
+        "options": {
+          "speed": "Speed"
+        }
+      },
+      "noskillcd": {
+        "name": "No skill cooldown",
+        "description": "Removes skill cooldown",
+        "warning": "",
+        "options": {
+          "no_sprint_cd": "No sprint CD"
+        }
+      },
+      "walkonwater": {
+        "name": "Walk on water",
+        "description": "Lets you walk on the water",
+        "warning": ""
+      },
+      "godmode": {
+        "name": "Invincibility",
+        "description": "Makes your character invincible like a god",
+        "warning": ""
+      }
+    },
+    "visuals": {
+      "interactivemap": {
+        "name": "Interactive Map",
+        "description": "Preview map points and track completion progress",
+        "warning": "",
+        "open_hint": "Open the game map (M key) to access the full interactive map interface.",
+        "window_title": "Interactive map",
+        "tabs": {
+          "settings": "Settings",
+          "filters": "Filters"
+        },
+        "scene_label": "Scene",
+        "no_scenes": "No scenes available",
+        "options": {
+          "auto_detect_scene": "Auto-detect current scene",
+          "show_overlay": "Show overlay summary",
+          "show_completed": "Show completed points",
+          "show_incomplete": "Show incomplete points",
+          "marker_size": "Marker size"
+        },
+        "labels": {
+          "none": "Scene has no labels yet.",
+          "hidden": "(hidden)"
+        },
+        "points": {
+          "title": "%s (Scene %u) | %zu points",
+          "no_points": "No points defined for this label yet.",
+          "table": {
+            "id": "ID",
+            "x": "X",
+            "y": "Y",
+            "status": "Status"
+          },
+          "status_completed": "Completed",
+          "status_pending": "Pending",
+          "complete_button": "Complete",
+          "uncomplete_button": "Uncomplete"
+        },
+        "overlay": {
+          "title": "Interactive Map",
+          "scene": "Scene: %s",
+          "label": "Label: %s",
+          "completed": "Completed: %zu / %zu",
+          "no_label": "No label selected"
+        },
+        "scenes": {
+          "3": "Teyvat",
+          "5": "Enkanomiya",
+          "6": "Chasm: Underground",
+          "9": "Golden Apple Archipelago"
+        }
+      },
+      "skipcutscene": {
+        "name": "Skip Cutscenes",
+        "description": "Automatically skips cutscenes and game movies.",
+        "warning": "",
+        "options": {
+          "hotkey_mode": "Hotkey Mode",
+          "toggle_hotkey": "Toggle Hotkey"
+        },
+        "tooltips": {
+          "hotkey_mode": "When enabled, cutscenes are skipped only while hotkey is pressed.\nWhen disabled, cutscenes are always skipped when feature is enabled."
+        },
+        "status": {
+          "label": "Skip Cutscenes",
+          "hotkey_suffix": " [Hotkey]"
+        }
+      },
+      "fpsunlock": {
+        "name": "FPS unlock",
+        "description": "Unlocks max. framerate",
+        "warning": "",
+        "options": {
+          "target_fps": "Target FPS"
+        }
+      },
+      "fovchanger": {
+        "name": "FOV changer",
+        "description": "Changes camera field of view",
+        "warning": "",
+        "options": {
+          "target_fov": "Target FOV"
+        }
+      },
+      "resincrafter": {
+        "name": "Resin crafter",
+        "description": "Remotely crafts X pcs. of 'Condensed Resin'.\nNote: you must have enough resources",
+        "warning": "",
+        "options": {
+          "resin_pieces": "Resin pieces",
+          "craft": "Craft"
+        }
+      },
+      "skinmodifier": {
+        "name": "Skin Modifier",
+        "description": "Replaces specific character skins locally",
+        "warning": "",
+        "status": {
+          "active": "Skin overrides active: %d"
+        },
+        "fallback_avatar": "Avatar %u"
+      },
+      "menuunlocker": {
+        "name": "Menu Unlocker",
+        "description": "Unlocks Paimon menu entries and removes region borders",
+        "warning": "",
+        "options": {
+          "unlock_paimon": "Unlock Paimon menu entries",
+          "disable_region": "Disable red region limit"
+        },
+        "status": {
+          "label": "Menu unlocker active",
+          "menu_suffix": " | Menu",
+          "region_suffix": " | Region"
+        }
+      },
+      "profilechanger": {
+        "name": "Custom Profile",
+        "description": "Changes visible profile information and watermark",
+        "warning": "",
+        "options": {
+          "override_uid": "Override UID watermark",
+          "uid_value": "UID value",
+          "add_prefix": "Add \"UID:\" prefix",
+          "bold_style": "Bold style",
+          "italic_style": "Italic style",
+          "font_size": "Font size",
+          "position_x": "Position X",
+          "position_y": "Position Y",
+          "update_interval": "Update interval (ms)",
+          "override_nickname": "Override nickname",
+          "nickname": "Nickname",
+          "override_adventure_rank": "Override adventure rank",
+          "adventure_rank_value": "Adventure rank value",
+          "override_world_level": "Override world level",
+          "world_level_value": "World level value",
+          "override_exp_text": "Override experience text",
+          "current_exp": "Current EXP",
+          "max_exp": "Max EXP",
+          "override_exp_bar": "Override EXP bar",
+          "exp_bar_value": "EXP bar value",
+          "custom_avatar_image": "Custom avatar image",
+          "avatar_image_path": "Avatar image path",
+          "custom_namecard_image": "Custom namecard image",
+          "namecard_image_path": "Namecard image path"
+        },
+        "hints": {
+          "images": "Images must be PNG files (avatar: 256x256, card: 840x400)."
+        },
+        "status": {
+          "label": "Profile changer active",
+          "uid_suffix": " | UID",
+          "images_suffix": " | Images"
+        }
+      },
+      "graphicschanger": {
+        "name": "Graphics changer",
+        "description": "Changes some graphics settings",
+        "warning": "",
+        "options": {
+          "gamma": "Gamma",
+          "outline_width": "Outline width",
+          "resolution_scale": "Resolution scale",
+          "reset": "Reset"
+        },
+        "tooltip": {
+          "warning": "Be careful! Values above 2.0 might crash your game on low-end PCs. Open and close game map to apply."
+        }
+      },
+      "flycloakchanger": {
+        "name": "Change Glider",
+        "description": "Changes your Glider. Change avatar to apply.",
+        "warning": "",
+        "options": {
+          "selector_label": "Flycloak"
+        },
+        "flycloaks": {
+          "140004": "Wings of Azure Wind",
+          "140002": "Wings of Companionship",
+          "140006": "Wings of Concealing Snow",
+          "140014": "Wings of Delicacies",
+          "140003": "Wings of Descension",
+          "140016": "Wings of Fate's Course Intertwined",
+          "140007": "Wings of Feasting",
+          "140001": "Wings of First Flight",
+          "140005": "Wings of Golden Flight",
+          "140012": "Wings of Merciful, Wrathful Waters",
+          "140009": "Wings of Shimmering Galaxy",
+          "140015": "Wings of Soaring Flame",
+          "140010": "Wings of the Forest",
+          "140011": "Wings of the Starlit Feast",
+          "140008": "Wings of the Stormstrider",
+          "140013": "Wings of Transient Dreams"
+        }
+      },
+      "uncensor": {
+        "name": "Remove censorship",
+        "description": "Removes camera censorship at certain angles",
+        "warning": ""
+      },
+      "openteamimmediately": {
+        "name": "Open team immediately",
+        "description": "Allows you to open team setup immediately",
+        "warning": ""
+      },
+      "instantbowcharge": {
+        "name": "Instant bow charge",
+        "description": "Fully charges bow instantly",
+        "warning": ""
+      },
+      "hidedamage": {
+        "name": "Hide damage text",
+        "description": "Hides damage text",
+        "warning": "May not work :("
+      },
+      "constchanger": {
+        "name": "C6 Unlocker",
+        "description": "Unlocks C6 on your character. Switch avatar to apply.\nMost constellations will not have actual effect, though some still will. Do not report it as a bug.",
+        "warning": "DISABLE BEFORE GOING INTO ENDGAME!"
+      }
+    }
+  }
+}

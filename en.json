@@ -301,12 +301,15 @@
           "auto_start_range": "Auto-start range (m)"
         }
       },
-      "vacuumloot": {
-        "name": "Vacuum Loot",
-        "description": "Pull dropped items to the player automatically",
-        "warning": "",
-        "hotkey_hint": "Hotkey toggles the feature globally."
-      },
+          "vacuumloot": {
+            "name": "Vacuum Loot",
+            "description": "Pull dropped items to the player automatically",
+            "warning": "",
+            "options": {
+              "range": "Range (m)"
+            },
+            "hotkey_hint": "Hotkey toggles the feature globally."
+          },
       "autotalk": {
         "name": "Auto Dialogue",
         "description": "Automatically goes through dialogues",
@@ -505,7 +508,10 @@
         "name": "Auto Activate TP",
         "description": "Automatically unlocks TP points near you",
         "warning": "",
-        "options": {}
+        "options": {
+          "range": "Range (m)",
+          "delay": "Delay (ms)"
+        }
       },
       "musicevent": {
         "name": "Music Event",
@@ -696,7 +702,8 @@
           "geo": "Resonate Geo",
           "electro": "Resonate Electro",
           "dendro": "Resonate Dendro",
-          "hydro": "Resonate Hydro"
+          "hydro": "Resonate Hydro",
+          "pyro": "Resonate Pyro"
         },
         "status": {
           "label": "Auto-worship ready (%d items)"
@@ -706,21 +713,25 @@
           "geoculus": "Geoculus",
           "electroculus": "Electroculus",
           "dendroculus": "Dendroculus",
-          "hydroculus": "Hydroculus"
+          "hydroculus": "Hydroculus",
+          "pyroculus": "Pyroculus",
+          "lunaculus": "Lunaculus"
         },
         "elements": {
           "wind": "Wind",
           "rock": "Rock",
           "electric": "Electric",
           "grass": "Grass",
-          "hydro": "Hydro"
+          "hydro": "Hydro",
+          "pyro": "Pyro"
         },
         "messages": {
           "anemo": "Resonated with the Anemo element!",
           "geo": "Resonated with the Geo element!",
           "electro": "Resonated with the Electro element!",
           "dendro": "Resonated with the Dendro element!",
-          "hydro": "Resonated with the Hydro element!"
+          "hydro": "Resonated with the Hydro element!",
+          "pyro": "Resonated with the Pyro element!"
         }
       },
       "attackteammate": {
@@ -780,7 +791,7 @@
         "description": "Repeats player hits and optionally propagates them to nearby targets",
         "warning": "Can be risky",
         "options": {
-          "enabled": "Enable attack modifier",
+          "enabled": "Enable Rapid Fire",
           "multi_hit": "Multi-hit",
           "hit_multiplier": "Hit multiplier",
           "multi_target": "Multi-target",

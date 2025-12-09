@@ -786,21 +786,28 @@
           "cooking_not_implemented": "Прямое открытие интерфейса готовки пока не реализовано. Возможно, будет в будущих версиях."
         }
       },
-      "rapidfire": {
+      "attackmodifier": {
         "name": "Модификатор атаки",
-        "description": "Повторяет попадания игрока и опционально распространяет их на ближайшие цели",
+        "description": "Композит модификаторов атаки (Rapid Fire и AOE-дубликат)",
         "warning": "Может быть рискованно",
+        "sections": {
+          "rapid_fire": "Rapid Fire",
+          "aoe": "AOE-дубликат"
+        },
         "options": {
-          "enabled": "Включить Rapid Fire",
+          "rapid_enabled": "Включить Rapid Fire",
           "multi_hit": "Мульти-удар",
           "hit_multiplier": "Множитель ударов",
           "multi_target": "Мульти-цель",
-          "target_radius": "Радиус цели (м)"
+          "target_radius": "Радиус цели (м)",
+          "aoe_enabled": "Включить AOE-дубликат",
+          "aoe_range": "Радиус AOE (м)"
         },
         "status": {
           "active": "Модификатор атаки: активен",
-          "multi_hit": "Мульти-удар x%d",
-          "multi_target": "Мульти-цель %.1fm"
+          "multi_hit": "Rapid Fire: мульти-удар x%d",
+          "multi_target": "Rapid Fire: мульти-цель %.1fm",
+          "aoe": "AOE-дубликат: радиус %.1fm"
         }
       },
       "enhancedmovement": {

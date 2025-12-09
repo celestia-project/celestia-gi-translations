@@ -786,21 +786,28 @@
           "cooking_not_implemented": "Bezpośrednie otwieranie UI gotowania nie jest jeszcze zaimplementowane. Może w przyszłych wersjach."
         }
       },
-      "rapidfire": {
+      "attackmodifier": {
         "name": "Modyfikator ataku",
-        "description": "Powtarza trafienia gracza i opcjonalnie przenosi je na pobliskie cele",
+        "description": "Złożony zestaw modyfikatorów ataku (Rapid Fire + duplikacja AOE)",
         "warning": "Może być ryzykowne",
+        "sections": {
+          "rapid_fire": "Rapid Fire",
+          "aoe": "Duplikacja AOE"
+        },
         "options": {
-          "enabled": "Włącz Rapid Fire",
+          "rapid_enabled": "Włącz Rapid Fire",
           "multi_hit": "Multi-Hit",
           "hit_multiplier": "Mnożnik trafień",
           "multi_target": "Multi-Target",
-          "target_radius": "Promień celu (m)"
+          "target_radius": "Promień celu (m)",
+          "aoe_enabled": "Włącz duplikację AOE",
+          "aoe_range": "Zasięg AOE (m)"
         },
         "status": {
           "active": "Modyfikator ataku: aktywny",
-          "multi_hit": "Multi-Hit x%d",
-          "multi_target": "Multi-Target %.1fm"
+          "multi_hit": "Rapid Fire: Multi-Hit x%d",
+          "multi_target": "Rapid Fire: Multi-Target %.1fm",
+          "aoe": "Duplikacja AOE: promień %.1fm"
         }
       },
       "enhancedmovement": {

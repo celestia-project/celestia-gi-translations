@@ -786,21 +786,28 @@
           "cooking_not_implemented": "Das direkte Öffnen der Koch-UI ist noch nicht implementiert. Vielleicht in zukünftigen Versionen."
         }
       },
-      "rapidfire": {
+      "attackmodifier": {
         "name": "Angriffs-Modifikator",
-        "description": "Wiederholt Spielertreffer und leitet sie optional an nahegelegene Ziele weiter",
+        "description": "Zusammengesetzte Angriffsmods (Rapid Fire + AOE-Duplikat)",
         "warning": "Kann riskant sein",
+        "sections": {
+          "rapid_fire": "Rapid Fire",
+          "aoe": "AOE-Duplikat"
+        },
         "options": {
-          "enabled": "Schnellfeuer aktivieren",
+          "rapid_enabled": "Rapid Fire aktivieren",
           "multi_hit": "Mehrfach-Treffer",
           "hit_multiplier": "Treffer-Multiplikator",
           "multi_target": "Mehrfach-Ziel",
-          "target_radius": "Zielradius (m)"
+          "target_radius": "Zielradius (m)",
+          "aoe_enabled": "AOE-Duplikat aktivieren",
+          "aoe_range": "AOE-Radius (m)"
         },
         "status": {
           "active": "Angriffs-Modifikator: aktiv",
-          "multi_hit": "Mehrfach-Treffer x%d",
-          "multi_target": "Mehrfach-Ziel %.1fm"
+          "multi_hit": "Rapid Fire: Mehrfach-Treffer x%d",
+          "multi_target": "Rapid Fire: Mehrfach-Ziel %.1fm",
+          "aoe": "AOE-Duplikat: Radius %.1fm"
         }
       },
       "enhancedmovement": {

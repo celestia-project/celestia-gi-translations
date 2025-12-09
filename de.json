@@ -1,0 +1,1112 @@
+{
+  "menu": {
+    "title": "Celestia-Projekt",
+    "local_time": "Lokale Zeit",
+    "sidebar": {
+      "search_placeholder": "Suchen…",
+      "no_results": "Keine Ergebnisse für die aktuelle Suchanfrage.",
+      "no_features": "Dieses Modul hat noch keine Funktionen.",
+      "feature_enabled": "Funktion aktiviert",
+      "toggle_hotkey": "Hotkey umschalten",
+      "select_feature": "Wähle eine Funktion, um ihre Optionen zu sehen."
+    },
+    "overlays": {
+      "active_features": "Aktive Funktionen",
+      "fps": "FPS",
+      "teleport": {
+        "title": "Teleport-Warteschlange",
+        "current_file": "Datei",
+        "total": "Gesamt",
+        "visited": "Besucht",
+        "progress": "Fortschritt",
+        "next_in": "Nächster Teleport in",
+        "auto_active": "Auto-Teleportation aktiv"
+      }
+    }
+  },
+  "modules": {
+    "player": "Spieler",
+    "world": "Welt",
+    "teleports": "Teleports",
+    "visuals": "Visuelles",
+    "misc": "Sonstiges",
+    "settings": "Einstellungen"
+  },
+  "settings": {
+    "tabs": {
+      "general": "Allgemein",
+      "themes": "Themen",
+      "localization": "Sprache"
+    },
+    "about": {
+      "name": "Über",
+      "description": "Celestia Project Übersicht",
+      "title": "Über Celestia Project",
+      "description_full": "Celestia Project – neuer Cheat für ein bekanntes Anime-Spiel :)",
+      "version": "Aktuelle Version",
+      "developers": "Entwickler",
+      "no_developers": "(Keine Entwickler gelistet)",
+      "translators": "Übersetzer",
+      "no_translators": "(Keine Übersetzer gelistet)",
+      "links": "Community Links",
+      "github": "GitHub Repository",
+      "discord": "Discord Server"
+    },
+    "settings": {
+      "name": "Einstellungen",
+      "description": "Allgemeine UI-Einstellungen"
+    },
+    "general": {
+      "menu_section": "Menü",
+      "open_key": "Menü öffnen Taste",
+      "show_fps": "FPS-Zähler anzeigen",
+      "show_status": "Funktionsstatus anzeigen",
+      "show_tp_screen": "TP-Ladebildschirm anzeigen",
+      "global_hotkeys_section": "Globale Hotkeys",
+      "toggle_hotkeys": "Hotkeys umschalten",
+      "status_label": "Status",
+      "status_enabled": "Aktiviert",
+      "status_disabled": "Deaktiviert",
+      "language_section": "Sprache",
+      "language": "Sprache",
+      "language_hint": "Wähle die bevorzugte Sprache. Änderungen werden sofort übernommen.",
+      "language_combo": "Sprache",
+      "no_languages": "Keine Sprachen verfügbar"
+    },
+    "themes": {
+      "name": "Themen",
+      "description": "UI-Farb-Editor",
+      "description_full": "Passe das Aussehen jedes UI-Elements an.",
+      "reset": "Auf Standard zurücksetzen",
+      "table": {
+        "name": "Element",
+        "preview": "Vorschau"
+      },
+      "colors": {
+        "text": "Text",
+        "text_disabled": "Deaktivierter Text",
+        "window_bg": "Fensterhintergrund",
+        "child_bg": "Untergeordneter Hintergrund",
+        "popup_bg": "Popup-Hintergrund",
+        "border": "Rand",
+        "frame_bg": "Rahmenhintergrund",
+        "frame_bg_hovered": "Rahmenhintergrund (hervorgehoben)",
+        "frame_bg_active": "Rahmenhintergrund (aktiv)",
+        "title_bg": "Titelhintergrund",
+        "title_bg_active": "Titelhintergrund (aktiv)",
+        "menu_bar_bg": "Menüleistenhintergrund",
+        "scrollbar_bg": "Scrollleistenhintergrund",
+        "scrollbar_grab": "Scrollleistengriff",
+        "scrollbar_grab_hovered": "Scrollleistengriff (hervorgehoben)",
+        "scrollbar_grab_active": "Scrollleistengriff (aktiv)",
+        "check_mark": "Häkchen",
+        "slider_grab": "Schiebereglergriff",
+        "slider_grab_active": "Schiebereglergriff (aktiv)",
+        "button": "Button",
+        "button_hovered": "Button (hervorgehoben)",
+        "button_active": "Button (aktiv)",
+        "header": "Kopfzeile",
+        "header_hovered": "Kopfzeile (hervorgehoben)",
+        "header_active": "Kopfzeile (aktiv)",
+        "separator": "Trennlinie",
+        "separator_hovered": "Trennlinie (hervorgehoben)",
+        "separator_active": "Trennlinie (aktiv)",
+        "resize_grip": "Größenänderungsgriff",
+        "resize_grip_hovered": "Größenänderungsgriff (hervorgehoben)",
+        "resize_grip_active": "Größenänderungsgriff (aktiv)",
+        "tab": "Tab",
+        "tab_hovered": "Tab (hervorgehoben)",
+        "tab_active": "Tab (aktiv)",
+        "tab_selected": "Tab (ausgewählt)",
+        "table_header": "Tabellenkopf",
+        "table_border_strong": "Tabellenrand (stark)",
+        "table_border_light": "Tabellenrand (leicht)",
+        "text_selected_bg": "Textauswahl",
+        "drag_drop_target": "Drag & Drop Ziel",
+        "nav_window_highlight": "Navigationshervorhebung",
+        "nav_window_dim_bg": "Navigationshintergrund (abgedunkelt)",
+        "modal_dim_bg": "Modalhintergrund (abgedunkelt)"
+      }
+    },
+    "configs": {
+      "name": "Konfigurationen",
+      "description": "Profilmanager",
+      "title": "Konfigurationen",
+      "reset": "Konfiguration zurücksetzen",
+      "create": "Konfiguration erstellen",
+      "save": "Speichern",
+      "load": "Laden",
+      "delete": "Löschen",
+      "auto_label": "Auto-Konfig (verwaltet)",
+      "open_dir": "Konfigurationsordner öffnen"
+    },
+    "hotkeys": {
+      "name": "Hotkeys",
+      "description": "Funktionsbindungen verwalten",
+      "search_hint": "Suchen...",
+      "toggle_label": "Umschalten",
+      "no_modules": "Keine Module registriert."
+    }
+  },
+  "config": {
+    "widgets": {
+      "toggle_hotkey": "Hotkey umschalten",
+      "right_click_bindings": "Rechtsklick-Bindungen",
+      "enter_custom_value": "Benutzerdefinierten Wert eingeben:"
+    }
+  },
+  "functions": {
+    "world": {
+      "autoloot": {
+        "name": "Auto-Aufheben",
+        "description": "Sammelt automatisch Gegenstände auf und öffnet Truhen",
+        "warning": "Hinweis: Hohe Werte und niedrige Verzögerungen sind riskant!",
+        "sections": {
+          "auto_pickup": "Auto-Aufheben",
+          "auto_treasure": "Auto-Schatz",
+          "custom_range": "Benutzerdefinierte Reichweite",
+          "looting_speed": "Loot-Geschwindigkeit",
+          "pickup_filter": "Aufhebe-Filter"
+        },
+        "options": {
+          "enabled": "Aktiviert",
+          "auto_disable_when_full": "Automatisch deaktivieren, wenn das Inventar voll ist",
+          "chests": "Truhen",
+          "leyline": "Ley-Linien",
+          "search_points": "Suchpunkte",
+          "quest_interacts": "Quest-Interaktionen",
+          "others": "Andere",
+          "use_custom_range": "Benutzerdefinierte Reichweite verwenden",
+          "range": "Reichweite (m)",
+          "delay_time": "Verzögerungszeit (ms)",
+          "use_delay_fluctuation": "Verzögerungsschwankung verwenden",
+          "delay_fluctuation": "Verzögerungsschwankung (ms)",
+          "filter_enabled": "Aktiviert",
+          "filter_animals": "Tiere",
+          "filter_drop_items": "auf dem Boden liegende Gegenstände",
+          "filter_resources": "Ressourcen",
+          "filter_oculus": "Oculus"
+        },
+        "tooltips": {
+          "auto_pickup": "Hebt auf dem Boden liegende Gegenstände automatisch auf.\nExtrem riskant bei benutzerdefinierter Reichweite und niedrigen Verzögerungen."
+        },
+        "status": {
+          "title": "Auto-Aufheben"
+        }
+      },
+      "autodestroy": {
+        "name": "Objekte automatisch zerstören",
+        "description": "Zerstört sofort nicht-lebende Objekte in Reichweite",
+        "warning": "Hinweis: Diese Funktion ist nicht vollständig auf Erkennung getestet.\nNicht empfohlen für Hauptkonten oder mit hohen Werten.",
+        "options": {
+          "enabled": "Aktiviert",
+          "ores": "Erze",
+          "shields": "Schilde",
+          "doodads": "Doodads",
+          "special_objects": "Spezielle Objekte",
+          "special_chests": "Spezielle Truhen",
+          "range": "Reichweite (m)"
+        },
+        "tooltips": {
+          "ores": "Erze und Varianten, z.B. Elektrokristalle, Mark usw.",
+          "shields": "Schilde von Abgrundmagiern, Churls oder Schleimen.",
+          "doodads": "Fässer, Kisten, Vasen usw.",
+          "special_objects": "Zerstört altes Eis sowie große und kleine Steinhaufen",
+          "special_chests": "Zerstöre Truhen mit Dornen, Gefrorene oder in Steinen",
+          "risk_unknown": "Risiko unbekannt!"
+        },
+        "status": {
+          "label": "Zerstören"
+        }
+      },
+      "damageaura": {
+        "name": "Schadensaura",
+        "description": "Schadensaura erzeugt fortlaufend Treffer in deiner Umgebung und fügt sofort Schaden zu.\nNützlich als leichtere Alternative zur Tötungsaura.",
+        "warning": "Kann im Endgame riskant sein.",
+        "options": {
+          "enabled": "Schadensaura aktivieren",
+          "only_monsters": "Nur Monster",
+          "also_gadgets": "Auch Gadgets beeinflussen",
+          "randomize_delays": "Verzögerungen randomisieren",
+          "range": "Reichweite (m)",
+          "queue_delay": "Warteschlangenverzögerung (ms)",
+          "repeat_delay": "Wiederholungsverzögerung (ms)",
+          "damage_gauge": "Schadensanzeige (U)"
+        },
+        "status": {
+          "label": "Schadensaura",
+          "monsters": "Monster",
+          "all_hostiles": "Alle Feinde",
+          "gadgets_on": "An",
+          "gadgets_off": "Aus"
+        }
+      },
+      "mobvacuum": {
+        "name": "Mob-Vakuum",
+        "description": "Bewegt nahegelegene Feinde zu deinem Avatar",
+        "warning": "",
+        "options": {
+          "include_monsters": "Monster einschließen",
+          "include_animals": "Tiere einschließen",
+          "instant_vacuum": "Sofortiges Vakuum",
+          "only_target": "Nur Feindliche/Aggro",
+          "speed": "Geschwindigkeit",
+          "radius": "Radius (m)",
+          "distance": "Entfernung (m)"
+        },
+        "tooltips": {
+          "instant_vacuum": "Vakuumierte Entitäten sofort. Wenn deaktiviert, werden Mobs mit der angegebenen Geschwindigkeit vakuumiert.",
+          "only_target": "Wenn aktiviert, wirkt das Vakuum nur auf Monster, die dich anvisieren. Wirkt nicht auf Tiere.",
+          "distance": "Entfernung zwischen dem Spieler und dem Monster."
+        }
+      },
+      "killsaura": {
+        "name": "Tötungsaura",
+        "description": "Tötet automatisch Feinde um dich herum",
+        "warning": "Kann im Endgame riskant sein",
+        "options": {
+          "type": "Tötungsaura Typ",
+          "range": "Reichweite (m)",
+          "attack_delay": "Angriffsverzögerung (ms)",
+          "only_targeted": "Nur Feindliche/Aggro"
+        },
+        "tooltips": {
+          "type": "'Oberwelt': besser in der Welt und sicherer, NICHT IN DUNGEONS VERWENDEN!\n'Dungeon': langsamer als 'Oberwelt', funktioniert aber in Dungeons.",
+          "only_targeted": "Wenn aktiviert, wirkt die Tötungsaura nur auf Monster, die dich anvisieren/aggro sind."
+        },
+        "status": {
+          "label": "Tötungsaura"
+        }
+      },
+      "gamespeed": {
+        "name": "Spielgeschwindigkeit",
+        "description": "Passt die Unity-Zeitskala an",
+        "warning": "WARNUNG: Verwende dies NICHT in der offenen Welt (und im Endgame), nur in Menüs/etc verwenden, SEHR GEFÄHRLICH!",
+        "options": {
+          "hotkey_mode": "Hotkey-Modus",
+          "hotkey": "Hotkey",
+          "speed_multiplier": "Geschwindigkeitsmultiplikator"
+        },
+        "tooltips": {
+          "hotkey_mode": "Wenn aktiviert, ist die Spielgeschwindigkeit nur aktiv, während der Hotkey gedrückt wird.\nWenn deaktiviert, ist die Spielgeschwindigkeit immer aktiv, wenn die Funktion aktiviert ist.",
+          "speed_multiplier": "Spielgeschwindigkeitsmultiplikator. Höhere Werte = schnelleres Spiel."
+        }
+      },
+      "autoseelie": {
+        "name": "Auto-Seelie",
+        "description": "Sobald du die Seelie zum ersten Mal 'aktivierst', geht sie automatisch zum Ziel.",
+        "warning": "",
+        "options": {
+          "speedup": "Seelies beschleunigen",
+          "auto_start_range": "Auto-Start Reichweite (m)"
+        }
+      },
+      "vacuumloot": {
+        "name": "Loot-Vakuum",
+        "description": "Zieht fallen gelassene Gegenstände automatisch zum Spieler",
+        "warning": "",
+        "options": {
+          "range": "Reichweite (m)"
+        },
+        "hotkey_hint": "Hotkey schaltet die Funktion global um."
+      },
+      "autotalk": {
+        "name": "Auto-Dialog",
+        "description": "Geht automatisch durch Dialoge",
+        "warning": "Kann bei hohen Werten riskant sein",
+        "options": {
+          "auto_choose": "Antwort automatisch wählen",
+          "dialogue_speed": "Dialoggeschwindigkeit"
+        },
+        "tooltips": {
+          "auto_choose": "Wählt automatisch die erste Dialogoption, wenn Auswahlmöglichkeiten erscheinen.",
+          "dialogue_speed": "Steuert, wie schnell Zeichen im Dialog erscheinen.\n1.0 = normale Geschwindigkeit, 10.0 = ~10x schneller."
+        },
+        "status": {
+          "label": "Auto-Dialog",
+          "auto_choose_suffix": " [Auto-Wahl]"
+        }
+      },
+      "elementalaura": {
+        "name": "Elementar-Aura",
+        "description": "Wendet ständig ein Element auf Ziele um dich herum an",
+        "warning": "",
+        "options": {
+          "enabled": "Elementar-Aura aktivieren",
+          "only_targeted": "Nur Feindliche/Aggro",
+          "hit_objects": "Versuche Objekte zu treffen",
+          "smart_element": "Intelligentes Element",
+          "monster_element": "Auf Monster angewendetes Element",
+          "object_element": "Auf Objekte angewendetes Element",
+          "aura_range": "Aura-Reichweite",
+          "queue_delay": "Warteschlangenverzögerung (ms)",
+          "apply_interval": "Anwendungsintervall (ms)",
+          "element_durability": "Element-Haltbarkeit"
+        },
+        "status": {
+          "label": "Elementar-Aura",
+          "aggro": "Aggro",
+          "all": "Alle",
+          "obj": "+Obj",
+          "smart": "Smart",
+          "normal": "Normal"
+        },
+        "elements": {
+          "physical": "Physisch",
+          "pyro": "Pyro",
+          "hydro": "Hydro",
+          "anemo": "Anemo",
+          "electro": "Elektro",
+          "dendro": "Dendro",
+          "cryo": "Kryo",
+          "geo": "Geo",
+          "frozen": "Gefroren",
+          "antifire": "AntiFeuer",
+          "vehicleice": "FahrzeugEis",
+          "mushroom": "Pilz"
+        }
+      },
+      "skipenhanceanimation": {
+        "name": "Verbesserungsanimation überspringen",
+        "description": "Beschleunigt Waffen-/Artefakt-Verbesserungsdialoge",
+        "warning": "",
+        "options": {
+          "show_levelup_dialog": "Level-Up-Dialog anzeigen"
+        },
+        "status": {
+          "label": "Verbesserungsanimation: %s",
+          "dialog_only": "nur Dialog",
+          "skipped": "übersprungen"
+        }
+      },
+      "autochallenge": {
+        "name": "Auto-Herausforderung",
+        "description": "Sammelt automatisch Zeitherausforderungs-Gegenstände",
+        "warning": "",
+        "options": {
+          "enabled": "Aktiviert",
+          "destroy_bomb": "Bombe zerstören",
+          "risk_unknown": "Risiko unbekannt!",
+          "range": "Reichweite (m)",
+          "delay": "Verzögerung (ms)",
+          "custom_challenge": "Benutzerdefinierte Herausforderung",
+          "enable_custom": "Benutzerdefinierte Herausforderung aktivieren",
+          "get_gadget_id_hint": "Hole Gadget-ID vom Entitätsmanager.",
+          "display_name": "Anzeigename",
+          "gadget_id": "Gadget Id",
+          "add": "Hinzufügen"
+        },
+        "status": {
+          "challenge": "Herausforderung"
+        },
+        "table": {
+          "display_name": "Anzeigename",
+          "gadget_id": "Gadget Id",
+          "actions": "Aktionen",
+          "delete": "Löschen"
+        }
+      },
+      "autocook": {
+        "name": "Auto-Kochen",
+        "description": "Kocht automatisch Essen",
+        "warning": "",
+        "options": {
+          "enabled": "Aktiviert",
+          "enabled_hint": "Schnellkochen wird genutzt, wenn das Rezept diese Option unterstützt. Ist ‚Schnellkochen‘ deaktiviert, muss zusätzlich ‚Schnelle Kompetenz‘ aktiviert werden.",
+          "fast_proficiency": "Schnelle Kompetenz",
+          "fast_proficiency_hint": "Bereitet ein Rezept schnell bis zur maximalen Effizienz zu.",
+          "count_item": "Anzahl Gegenstände",
+          "count_item_hint": "Wie viel auf einmal gekocht werden soll.\n(Nur für Standardmodus.)",
+          "quality": "Qualität",
+          "quality_hint": "Wähle die Qualität des Kochergebnisses.",
+          "quality_options": {
+            "suspicious": "Verdächtig",
+            "normal": "Normal",
+            "delicious": "Lecker"
+          }
+        },
+        "status": {
+          "proficiency": "Auto-Kochen [Kompetenz]",
+          "standard": "Auto-Kochen [Standard]"
+        }
+      },
+      "autopuzzle": {
+        "name": "Auto-Rätsel",
+        "description": "Löst Rätsel automatisch",
+        "warning": "",
+        "options": {
+          "enabled": "Auto-Rätsel",
+          "enabled_hint": "Rätsel automatisch lösen",
+          "range": "Reichweite (m)",
+          "delay": "Verzögerungszeit (ms)",
+          "general": "Allgemein",
+          "plants": "Pflanzen",
+          "seelie": "Seelie",
+          "elem_tablet": "Elementar-Monument",
+          "torch_puzzle": "Fackel-Rätsel",
+          "wind_slime": "Schwebender Anemo-Schleim",
+          "bloatty_floatty": "Knallundweg",
+          "pot": "Topf",
+          "campfire_torch": "Lagerfeuer-Fackel",
+          "pressure_plate": "Druckplatte",
+          "parametric_transformer": "Parametrischer Wandler",
+          "mondstadt": "Mondstadt",
+          "snow_pile": "Schneehaufen",
+          "liyue": "Liyue",
+          "windmill_mechanism": "Windmühlenmechanismus",
+          "geogranum": "Geogranum",
+          "inazuma": "Inazuma",
+          "electro_seelie": "Elektro-Seelie",
+          "lightning_strike_probe": "Blitzschlagsonde",
+          "stormstone": "Sturmstein",
+          "electric_conduction": "Elektrische Leitung",
+          "sumeru": "Sumeru",
+          "dendro_rock": "Dendro-Stein",
+          "dendro_pile": "Dendro-Haufen",
+          "clusterleaf_of_cultivation": "Kultivierungs-Büschelblatt",
+          "sumeru_puzzles": "Sumeru Rätsel",
+          "stone_pillar_seal": "Steinsäulen-Siegel",
+          "death_zone_point": "Tumor des Welkens",
+          "sand_pile": "Sandhaufen",
+          "daily_commission": "Tägliche Mission",
+          "daily_commission_hint": "Löst automatisch einige tägliche Missionen wie Flecken reinigen, gefallene Blätter usw.",
+          "modify_balloon_cart_speed": "Ballonwagen-Geschwindigkeit ändern",
+          "modify_balloon_cart_speed_hint": "Für tägliche Mission: Regeln des sicheren Transports",
+          "time_scale": "Zeitskala"
+        },
+        "status": {
+          "auto_puzzle": "Auto-Rätsel"
+        }
+      },
+      "autotreefarm": {
+        "name": "Auto-Baumfarm",
+        "description": "Greift Bäume in Reichweite automatisch an",
+        "warning": "Hinweis: Diese Funktion ist nicht vollständig auf Erkennung getestet.\nNicht empfohlen für Hauptkonten oder mit hohen Werten.",
+        "options": {
+          "enabled": "Aktiviert",
+          "enabled_hint": "Greift Bäume in Reichweite automatisch an.",
+          "attack_delay": "Angriffsverzögerung (ms)",
+          "attack_delay_hint": "Verzögerung vor dem Angriff auf den nächsten Baum (in ms).",
+          "repeat_delay": "Wiederholungsverzögerung (ms)",
+          "repeat_delay_hint": "Verzögerung vor dem Angriff auf denselben Baum (in ms).\nWerte <500ms funktionieren nicht.",
+          "attacks_per_tree": "Angriffe pro Baum",
+          "attacks_per_tree_hint": "Anzahl der Angriffe für einen Baum.\nEmpfohlen, es auf 10 oder niedriger zu setzen, um Angriffe auf leere Bäume zu vermeiden.\nAuf 0 setzen für unbegrenzte Angriffe (auch leere Bäume, extrem hohes Risiko).\nHinweis: Angriffe auf gemerkte Bäume werden nach Neustart des Spiels zurückgesetzt.",
+          "range": "Reichweite (m)",
+          "range_note": "Reichweite ist aus Sicherheitsgründen auf ca. 15 m begrenzt."
+        },
+        "status": {
+          "tree_farm": "Baumfarm"
+        }
+      },
+      "dumbenemies": {
+        "name": "Dumme Feinde",
+        "description": "Feinde werden dich nicht angreifen",
+        "warning": "",
+        "options": {}
+      },
+      "autoactivatetp": {
+        "name": "Auto-TP Aktivierung",
+        "description": "Schaltet TP-Punkte in deiner Nähe automatisch frei",
+        "warning": "",
+        "options": {
+          "range": "Reichweite (m)",
+          "delay": "Verzögerung (ms)"
+        }
+      },
+      "musicevent": {
+        "name": "Musik-Event",
+        "description": "Schließt Musik-Events automatisch mit perfekten Punktzahlen ab",
+        "warning": "",
+        "options": {}
+      },
+      "entitymanager": {
+        "name": "Entitätsmanager",
+        "description": "Zeige und verwalte alle Entitäten in der Welt",
+        "warning": "",
+        "options": {
+          "enabled": "Aktiviert"
+        },
+        "filters": {
+          "name": "Namensfilter",
+          "use_radius": "Nach Radius filtern",
+          "radius": "Radius (m)",
+          "sort_by": "Sortieren nach",
+          "sort_by_tooltip": "Wähle, wie Entitäten in der Liste sortiert werden sollen",
+          "type_filters": "Typfilter",
+          "select_all": "Alle auswählen",
+          "deselect_all": "Alle abwählen",
+          "group_by_type": "Nach Typ gruppieren"
+        },
+        "sort": {
+          "distance": "Entfernung",
+          "name": "Name",
+          "type": "Typ",
+          "runtime_id": "Laufzeit-ID"
+        },
+        "table": {
+          "actions": "Aktionen",
+          "runtime_id": "Laufzeit-ID",
+          "config_id": "Konfig-ID",
+          "name": "Name",
+          "type": "Typ",
+          "distance": "Entfernung",
+          "position": "Position"
+        },
+        "action": {
+          "summon": "Entität zum Spieler beschwören",
+          "teleport": "Spieler zur Entität teleportieren",
+          "banish": "Entität in den Boden verbannen (y=0)"
+        },
+        "entity_count": "Entitätsanzahl: %zu",
+        "no_entities": "Keine Entitäten gefunden"
+      }
+    },
+    "teleports": {
+      "maptp": {
+        "name": "Karten-TP",
+        "description": "Halte die TP-Taste und klicke auf die Weltkarte, um zu diesem Ort zu teleportieren",
+        "warning": "Teleports können riskant sein!",
+        "options": {
+          "tp_key": "TP-Taste",
+          "detect_ground_height": "Bodenhöhe erkennen",
+          "use_transport_position": "Transportposition verwenden",
+          "fallback_height": "Fallback-Höhe"
+        },
+        "status": {
+          "teleport_key": "Teleport-Taste: %s",
+          "last": "Zuletzt: %.1f / %.1f / %.1f",
+          "teleport_status": "Teleport-Status: %s",
+          "running": "Läuft",
+          "idle": "Leerlauf",
+          "queued": "Teleport in Warteschlange zu %.1f / %.1f / %.1f"
+        }
+      },
+      "custom": {
+        "title": "Benutzerdefinierte Teleports",
+        "warning": "Teleports können riskant sein!",
+        "options": {
+          "auto_teleport": "Auto-Teleport",
+          "intelligent_mode": "Intelligenter Modus",
+          "instant_teleport": "Sofortiger Teleport",
+          "random_delay": "Zufällige Verzögerung",
+          "min_delay": "Min. Verzögerung (s)",
+          "max_delay": "Max. Verzögerung (s)",
+          "delay": "Verzögerung (s)"
+        },
+        "tooltips": {
+          "instant_teleport": "Verwende direkte Positionseinstellung anstelle von Karten-TP.\nSchneller, aber riskanter für lange Distanzen."
+        },
+        "hotkeys": {
+          "section": "Hotkeys",
+          "next_node": "Nächster Knoten",
+          "prev_node": "Vorheriger Knoten",
+          "add_node": "Knoten hinzufügen"
+        },
+        "files": {
+          "file_name": "Dateiname",
+          "description": "Beschreibung",
+          "create_file": "Datei erstellen",
+          "reload": "Neu laden",
+          "open_folder": "Ordner öffnen",
+          "table": {
+            "current": "Aktuell",
+            "name": "Name",
+            "description": "Beschreibung",
+            "actions": "Aktionen"
+          },
+          "buttons": {
+            "save": "Speichern",
+            "reset": "Zurücksetzen",
+            "delete": "Löschen"
+          }
+        },
+        "nodes": {
+          "title": "Knoten (%zu)",
+          "add_current": "Aktuelle Position hinzufügen",
+          "remove_selected": "Ausgewählte Knoten entfernen",
+          "radius": "Radius",
+          "remove_nearby": "Nahegelegene entfernen",
+          "previous_node": "Vorheriger Knoten",
+          "next_node": "Nächster Knoten",
+          "table": {
+            "visited": "Besucht",
+            "x": "X",
+            "y": "Y",
+            "z": "Z",
+            "selected": "Ausgewählt",
+            "actions": "Aktionen",
+            "visited_yes": "Ja",
+            "visited_no": "Nein",
+            "teleport": "Teleport",
+            "delete": "Löschen"
+          }
+        },
+        "status": {
+          "progress": "Fortschritt: %zu / %zu"
+        },
+        "logs": {
+          "avatar_not_loaded": "[CustomTeleports] Avatar nicht geladen",
+          "added_node": "[CustomTeleports] Knoten hinzugefügt bei %.2f %.2f %.2f"
+        }
+      },
+      "chesttp": {
+        "name": "Truhen-TP",
+        "description": "Teleportiert dich zur nächsten geschlossenen Truhe",
+        "warning": "Teleports können riskant sein!",
+        "options": {
+          "tp_key": "TP-Taste"
+        },
+        "status": {
+          "title": "TP-Status:",
+          "label": "Truhen-TP: %s",
+          "not_found": "Nicht gefunden"
+        }
+      },
+      "oculitp": {
+        "name": "Oculi-TP",
+        "description": "Teleportiert dich zum nächsten Oculus",
+        "warning": "Teleports können riskant sein!",
+        "options": {
+          "tp_key": "TP-Taste"
+        },
+        "status": {
+          "title": "TP-Status:",
+          "label": "Oculi-TP: %s",
+          "not_found": "Nicht gefunden"
+        }
+      },
+      "questtp": {
+        "name": "Quest-TP",
+        "description": "Teleportiert dich zur aktiven verfolgten Quest",
+        "warning": "Teleports können riskant sein!",
+        "options": {
+          "tp_key": "TP-Taste"
+        }
+      }
+    },
+    "player": {
+      "worshipstatue": {
+        "name": "Statue anbeten",
+        "description": "Statuen schnell aufleveln und Reisenden-Element ändern",
+        "warning": "",
+        "options": {
+          "statue_type": "Statuentyp",
+          "offering_count": "Anzahl der Opfergaben",
+          "worship": "Anbeten",
+          "traveler_element": "Reisenden-Element",
+          "resonate": "Resonieren"
+        },
+        "hotkeys": {
+          "section": "Hotkeys",
+          "anemo": "Mit Anemo resonieren",
+          "geo": "Mit Geo resonieren",
+          "electro": "Mit Elektro resonieren",
+          "dendro": "Mit Dendro resonieren",
+          "hydro": "Mit Hydro resonieren",
+          "pyro": "Mit Pyro resonieren"
+        },
+        "status": {
+          "label": "Auto-Anbetung bereit (%d Gegenstände)"
+        },
+        "statue_types": {
+          "anemoculus": "Anemoculus",
+          "geoculus": "Geoculus",
+          "electroculus": "Electroculus",
+          "dendroculus": "Dendroculus",
+          "hydroculus": "Hydroculus",
+          "pyroculus": "Pyroculus",
+          "lunaculus": "Lunaculus"
+        },
+        "elements": {
+          "wind": "Wind",
+          "rock": "Gestein",
+          "electric": "Elektrisch",
+          "grass": "Gras",
+          "hydro": "Hydro",
+          "pyro": "Pyro"
+        },
+        "messages": {
+          "anemo": "Resonanz mit dem Anemo-Element hergestellt!",
+          "geo": "Resonanz mit dem Geo-Element hergestellt!",
+          "electro": "Resonanz mit dem Elektro-Element hergestellt!",
+          "dendro": "Resonanz mit dem Dendro-Element hergestellt!",
+          "hydro": "Resonanz mit dem Hydro-Element hergestellt!",
+          "pyro": "Resonanz mit dem Pyro-Element hergestellt!"
+        }
+      },
+      "attackteammate": {
+        "name": "Teamkameraden angreifen",
+        "description": "Erlaubt dir, deine Teamkameraden im Koop-Modus anzugreifen.",
+        "warning": "",
+        "options": {
+          "enabled": "Freundliches Feuer erlauben"
+        },
+        "status": {
+          "label": "Freundliches Feuer aktiv"
+        }
+      },
+      "remoteutility": {
+        "name": "Fern-Dienstprogramm (Beta)",
+        "description": "Nützliche Helfer: Handwerk, NPC-Beschwörung, Entitäts-Spawn",
+        "warning": "",
+        "sections": {
+          "crafting": "Handwerk",
+          "summon_npc": "NPC beschwören",
+          "free_spawn": "Freier Spawn"
+        },
+        "options": {
+          "quick_crafting": "Schnelles Handwerk",
+          "condense_resin": "Harz kondensieren",
+          "spawn_alchemy_table": "Alchemietisch spawnen",
+          "hotkey": "Hotkey",
+          "custom_combine": "Benutzerdefiniertes Kombinieren (Material -> Ergebnis)",
+          "material_id": "Material-ID",
+          "result_id": "Ergebnis-ID",
+          "count": "Anzahl",
+          "request_combine": "Kombination anfordern",
+          "katheryne": "Katheryne",
+          "wagner": "Wagner",
+          "cat_prince": "Katzenprinz",
+          "distance": "Entfernung (m)",
+          "gadget_id": "Gadget-ID",
+          "spawn_gadget": "Gadget spawnen",
+          "monster_id": "Monster-ID",
+          "spawn_monster": "Monster spawnen",
+          "npc_id": "NPC-ID",
+          "spawn_npc": "NPC spawnen",
+          "item_id": "Gegenstands-ID",
+          "spawn_item": "Gegenstand spawnen"
+        },
+        "status": {
+          "label": "Fern-Dienstprogramm: Kondensieren[%s] | Alchemie[%s]"
+        },
+        "messages": {
+          "itemmodule_failed": "Fehler beim Abrufen des ItemModule-Singletons (erneut versuchen?)",
+          "craft_request_sent": "Handwerksanfrage gesendet",
+          "cooking_not_implemented": "Das direkte Öffnen der Koch-UI ist noch nicht implementiert. Vielleicht in zukünftigen Versionen."
+        }
+      },
+      "rapidfire": {
+        "name": "Angriffs-Modifikator",
+        "description": "Wiederholt Spielertreffer und leitet sie optional an nahegelegene Ziele weiter",
+        "warning": "Kann riskant sein",
+        "options": {
+          "enabled": "Schnellfeuer aktivieren",
+          "multi_hit": "Mehrfach-Treffer",
+          "hit_multiplier": "Treffer-Multiplikator",
+          "multi_target": "Mehrfach-Ziel",
+          "target_radius": "Zielradius (m)"
+        },
+        "status": {
+          "active": "Angriffs-Modifikator: aktiv",
+          "multi_hit": "Mehrfach-Treffer x%d",
+          "multi_target": "Mehrfach-Ziel %.1fm"
+        }
+      },
+      "enhancedmovement": {
+        "name": "Erweiterte Bewegung",
+        "description": "Sprungverstärkung und Kurzstrecken-Blink-Bewegung",
+        "warning": "",
+        "options": {
+          "jump_boost": "Sprungverstärkung",
+          "apply_midair": "In der Luft anwenden",
+          "vertical_velocity": "Vertikale Geschwindigkeit",
+          "blink_hotkey": "Blink-Hotkey",
+          "blink_distance": "Blink-Distanz",
+          "target_blink_key": "Ziel-Blink-Taste",
+          "target_entities": "Nahegelegene Entitäten anvisieren",
+          "target_range": "Zielerkennungsreichweite",
+          "directional_keys": "Richtungstasten",
+          "forward": "Vorwärts",
+          "backward": "Rückwärts",
+          "left": "Links",
+          "right": "Rechts"
+        },
+        "status": {
+          "label": "Erweiterte Bewegung bereit"
+        }
+      },
+      "noclip": {
+        "name": "Noclip",
+        "description": "Lässt dich fliegen",
+        "warning": "",
+        "options": {
+          "speed": "Geschwindigkeit",
+          "use_alt_speed": "Alt. Geschwindigkeit verwenden",
+          "alt_speed": "Alt. Geschwindigkeit"
+        }
+      },
+      "infinitystamina": {
+        "name": "Unendliche Ausdauer",
+        "description": "Macht deine Ausdauer unendlich",
+        "warning": "",
+        "options": {
+          "infinite_wanderer": "Unendlicher Wanderer-Flug"
+        }
+      },
+      "infinityultimate": {
+        "name": "Unendliche Ulti",
+        "description": "Lädt Ulti-Energie sofort auf.",
+        "warning": "",
+        "status": {
+          "label": "Unendliche Ulti aktiv"
+        }
+      },
+      "multihit": {
+        "name": "Mehrfachtreffer",
+        "description": "Vervielfacht deine Angriffe",
+        "warning": "Kann im Endgame riskant sein",
+        "options": {
+          "hits": "Treffer"
+        }
+      },
+      "playerspeed": {
+        "name": "Spielergeschwindigkeit",
+        "description": "Beschleunigt Spieleranimationen",
+        "warning": "",
+        "options": {
+          "speed": "Geschwindigkeit"
+        }
+      },
+      "noskillcd": {
+        "name": "Kein Fähigkeits-Cooldown",
+        "description": "Entfernt Fähigkeits-Cooldown",
+        "warning": "",
+        "options": {
+          "no_sprint_cd": "Kein Sprint-CD"
+        }
+      },
+      "walkonwater": {
+        "name": "Auf Wasser laufen",
+        "description": "Lässt dich auf dem Wasser laufen",
+        "warning": ""
+      },
+      "godmode": {
+        "name": "Unverwundbarkeit",
+        "description": "Macht deinen Charakter unbesiegbar wie einen Gott",
+        "warning": ""
+      }
+    },
+    "visuals": {
+      "interactivemap": {
+        "name": "Interaktive Karte",
+        "description": "Vorschau von Kartenpunkten und Verfolgung des Fortschritts",
+        "warning": "",
+        "open_hint": "Öffne die Spielkarte (M-Taste), um auf die vollständige interaktive Kartenoberfläche zuzugreifen.",
+        "window_title": "Interaktive Karte",
+        "tabs": {
+          "settings": "Einstellungen",
+          "filters": "Filter"
+        },
+        "scene_label": "Szene",
+        "no_scenes": "Keine Szenen verfügbar",
+        "options": {
+          "auto_detect_scene": "Aktuelle Szene automatisch erkennen",
+          "show_overlay": "Overlay-Zusammenfassung anzeigen",
+          "show_completed": "Abgeschlossene Punkte anzeigen",
+          "show_incomplete": "Unvollständige Punkte anzeigen",
+          "marker_size": "Markergröße"
+        },
+        "labels": {
+          "none": "Szene hat noch keine Labels.",
+          "hidden": "(versteckt)"
+        },
+        "points": {
+          "title": "%s (Szene %u) | %zu Punkte",
+          "no_points": "Noch keine Punkte für dieses Label definiert.",
+          "table": {
+            "id": "ID",
+            "x": "X",
+            "y": "Y",
+            "status": "Status"
+          },
+          "status_completed": "Abgeschlossen",
+          "status_pending": "Ausstehend",
+          "complete_button": "Abschließen",
+          "uncomplete_button": "Nicht abschließen"
+        },
+        "overlay": {
+          "title": "Interaktive Karte",
+          "scene": "Szene: %s",
+          "label": "Label: %s",
+          "completed": "Abgeschlossen: %zu / %zu",
+          "no_label": "Kein Label ausgewählt"
+        },
+        "scenes": {
+          "3": "Teyvat",
+          "5": "Enkanomiya",
+          "6": "Große Kluft: Untergrund",
+          "9": "Goldapfelarchipel"
+        }
+      },
+      "skipcutscene": {
+        "name": "Zwischensequenzen überspringen",
+        "description": "Überspringt automatisch Zwischensequenzen und Spielfilme.",
+        "warning": "",
+        "options": {
+          "hotkey_mode": "Hotkey-Modus",
+          "toggle_hotkey": "Hotkey umschalten"
+        },
+        "tooltips": {
+          "hotkey_mode": "Wenn aktiviert, werden Zwischensequenzen nur übersprungen, während der Hotkey gedrückt wird.\nWenn deaktiviert, werden Zwischensequenzen immer übersprungen, wenn die Funktion aktiviert ist."
+        },
+        "status": {
+          "label": "Zwischensequenzen überspringen",
+          "hotkey_suffix": " [Hotkey]"
+        }
+      },
+      "fpsunlock": {
+        "name": "FPS entsperren",
+        "description": "Entsperrt max. Bildrate",
+        "warning": "",
+        "options": {
+          "target_fps": "Ziel-FPS"
+        }
+      },
+      "fovchanger": {
+        "name": "FOV-Wechsler",
+        "description": "Ändert das Sichtfeld der Kamera",
+        "warning": "",
+        "options": {
+          "target_fov": "Ziel-FOV"
+        }
+      },
+      "resincrafter": {
+        "name": "Harz-Handwerker",
+        "description": "Stellt aus der Ferne X Stück 'Angereichertes Harz' her.\nHinweis: Du musst genügend Ressourcen haben",
+        "warning": "",
+        "options": {
+          "resin_pieces": "Harzstücke",
+          "craft": "Herstellen"
+        }
+      },
+      "skinmodifier": {
+        "name": "Skin-Modifikator",
+        "description": "Ersetzt bestimmte Charakter-Skins lokal",
+        "warning": "",
+        "status": {
+          "active": "Skin-Überschreibungen aktiv: %d"
+        },
+        "fallback_avatar": "Avatar %u"
+      },
+      "menuunlocker": {
+        "name": "Menü-Entsperrer",
+        "description": "Entsperrt Paimon-Menüeinträge und entfernt Regionsgrenzen",
+        "warning": "",
+        "options": {
+          "unlock_paimon": "Paimon-Menüeinträge entsperren",
+          "disable_region": "Rote Regionsbegrenzung deaktivieren"
+        },
+        "status": {
+          "label": "Menü-Entsperrer aktiv",
+          "menu_suffix": " | Menü",
+          "region_suffix": " | Region"
+        }
+      },
+      "profilechanger": {
+        "name": "Benutzerdefiniertes Profil",
+        "description": "Ändert sichtbare Profilinformationen und Wasserzeichen",
+        "warning": "",
+        "options": {
+          "override_uid": "UID-Wasserzeichen überschreiben",
+          "uid_value": "UID-Wert",
+          "add_prefix": "\"UID:\" Präfix hinzufügen",
+          "bold_style": "Fetter Stil",
+          "italic_style": "Kursiver Stil",
+          "font_size": "Schriftgröße",
+          "position_x": "Position X",
+          "position_y": "Position Y",
+          "update_interval": "Aktualisierungsintervall (ms)",
+          "override_nickname": "Spitznamen überschreiben",
+          "nickname": "Spitzname",
+          "override_adventure_rank": "Abenteuerrang überschreiben",
+          "adventure_rank_value": "Abenteuerrang-Wert",
+          "override_world_level": "Weltstufe überschreiben",
+          "world_level_value": "Weltstufe-Wert",
+          "override_exp_text": "Erfahrungstext überschreiben",
+          "current_exp": "Aktuelle EXP",
+          "max_exp": "Max. EXP",
+          "override_exp_bar": "EXP-Leiste überschreiben",
+          "exp_bar_value": "EXP-Leistenwert",
+          "custom_avatar_image": "Benutzerdefiniertes Avatar-Bild",
+          "avatar_image_path": "Avatar-Bildpfad",
+          "custom_namecard_image": "Benutzerdefiniertes Namenskarten-Bild",
+          "namecard_image_path": "Namenskarten-Bildpfad"
+        },
+        "hints": {
+          "images": "Bilder müssen PNG-Dateien sein (Avatar: 256x256, Karte: 840x400)."
+        },
+        "status": {
+          "label": "Profil-Änderer aktiv",
+          "uid_suffix": " | UID",
+          "images_suffix": " | Bilder"
+        }
+      },
+      "graphicschanger": {
+        "name": "Grafik-Änderer",
+        "description": "Ändert einige Grafikeinstellungen",
+        "warning": "",
+        "options": {
+          "gamma": "Gamma",
+          "outline_width": "Umrissbreite",
+          "resolution_scale": "Auflösungsskala",
+          "reset": "Zurücksetzen"
+        },
+        "tooltip": {
+          "warning": "Sei vorsichtig! Werte über 2.0 können dein Spiel auf leistungsschwachen PCs abstürzen lassen. Öffne und schließe die Spielkarte, um anzuwenden."
+        }
+      },
+      "flycloakchanger": {
+        "name": "Gleiter ändern",
+        "description": "Ändert deinen Gleiter. Wechsle den Avatar zum Anwenden.",
+        "warning": "",
+        "options": {
+          "selector_label": "Gleiter"
+        },
+        "flycloaks": {
+          "140004": "Flügel des azurblauen Windes",
+          "140002": "Flügel der Kameradschaft",
+          "140006": "Flügel des verhüllten Schnees",
+          "140014": "Flügel der Delikatessen",
+          "140003": "Flügel des Herabsteigens",
+          "140016": "Flügel des verwobenen Schicksals",
+          "140007": "Flügel des Festmahls",
+          "140001": "Flügel des ersten Fluges",
+          "140005": "Flügel des goldenen Fluges",
+          "140012": "Flügel der gnädigen, zornigen Gewässer",
+          "140009": "Flügel der schimmernden Galaxie",
+          "140015": "Flügel der emporsteigenden Flamme",
+          "140010": "Flügel des Waldes",
+          "140011": "Flügel des sternenklaren Festmahls",
+          "140008": "Flügel des Sturmjägers",
+          "140013": "Flügel der vergänglichen Träume"
+        }
+      },
+      "uncensor": {
+        "name": "Zensur entfernen",
+        "description": "Entfernt Kamerazensur in bestimmten Winkeln",
+        "warning": ""
+      },
+      "openteamimmediately": {
+        "name": "Team sofort öffnen",
+        "description": "Erlaubt dir, das Team-Setup sofort zu öffnen",
+        "warning": ""
+      },
+      "instantbowcharge": {
+        "name": "Sofortiges Bogenaufladen",
+        "description": "Lädt Bogen sofort vollständig auf",
+        "warning": ""
+      },
+      "hidedamage": {
+        "name": "Schadenstext verbergen",
+        "description": "Verbirgt Schadenstext",
+        "warning": "Funktioniert möglicherweise nicht :("
+      },
+      "constchanger": {
+        "name": "C6-Entsperrer",
+        "description": "Entsperrt C6 auf deinem Charakter. Wechsle Avatar zum Anwenden.\nDie meisten Sternbilder werden keinen tatsächlichen Effekt haben, obwohl einige es tun werden. Melde es nicht als Fehler.",
+        "warning": "DEAKTIVIEREN VOR DEM BETRETEN DES ENDGAMES!"
+      }
+    }
+  }
+}

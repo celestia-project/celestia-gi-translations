@@ -3,7 +3,8 @@
     "languages": {
       "en": "English",
       "ru": "Русский",
-      "pl": "Polski"
+      "pl": "Polski",
+      "de": "Deutsch"
     }
   },
   "credits": {
@@ -16,12 +17,14 @@
     ],
     "translator_list": [
       "Aoyuki (EN)",
-      "dxrkn3sssss (PL, RU)"
+      "dxrkn3sssss (PL, RU)",
+      "HUTAOSHUSBAND (DE)"
     ]
   },
   "language_files": {
     "en": "en.json",
     "ru": "ru.json",
-    "pl": "pl.json"
+    "pl": "pl.json",
+    "de": "de.json"
   }
 }

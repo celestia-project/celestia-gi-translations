@@ -1,0 +1,1119 @@
+{
+  "menu": {
+    "title": "Celestia Project",
+    "local_time": "当前时间",
+    "sidebar": {
+      "search_placeholder": "搜索…",
+      "no_results": "当前查询没有结果。",
+      "no_features": "该模块尚未添加任何功能。",
+      "feature_enabled": "已启用功能",
+      "toggle_hotkey": "切换快捷键",
+      "select_feature": "选择一项功能以查看其选项。"
+    },
+    "overlays": {
+      "active_features": "生效功能",
+      "fps": "FPS",
+      "teleport": {
+        "title": "传送队列",
+        "current_file": "文件",
+        "total": "总点位",
+        "visited": "已访问",
+        "progress": "进程",
+        "next_in": "下一传送点",
+        "auto_active": "自动传送已激活"
+      }
+    }
+  },
+  "modules": {
+    "player": "玩家",
+    "world": "世界",
+    "teleports": "传送",
+    "visuals": "视图",
+    "misc": "其它",
+    "settings": "设置"
+  },
+  "settings": {
+    "tabs": {
+      "general": "通用",
+      "themes": "主题",
+      "localization": "本地化"
+    },
+    "about": {
+      "name": "关于",
+      "description": "Celestia Project概述",
+      "title": "关于Celestia Project",
+      "description_full": "Celestia Project - new cheat for some certain anime game :)",
+      "version": "当前版本",
+      "developers": "开发者",
+      "no_developers": "(没有列出任何开发者)",
+      "translators": "翻译者",
+      "no_translators": "(没有列出任何翻译者)",
+      "links": "社区链接",
+      "github": "GitHub仓库",
+      "discord": "Discord服务器"
+    },
+    "settings": {
+      "name": "设置",
+      "description": "通用UI设置"
+    },
+    "general": {
+      "menu_section": "菜单",
+      "open_key": "菜单打开键",
+      "show_fps": "显示帧率",
+      "show_status": "显示功能状态",
+      "show_tp_screen": "显示传送加载界面",
+      "global_hotkeys_section": "全局热键",
+      "toggle_hotkeys": "切换热键",
+      "status_label": "状态",
+      "status_enabled": "已启用",
+      "status_disabled": "已禁用",
+      "language_section": "界面语言",
+      "language": "界面语言",
+      "language_hint": "选择首选语言。更改立即生效。",
+      "language_combo": "语言",
+      "no_languages": "无可用语言。"
+    },
+    "themes": {
+      "name": "主题",
+      "description": "UI颜色编辑器",
+      "description_full": "自定义每个用户界面元素的外观。",
+      "reset": "重置为默认值",
+      "table": {
+        "name": "元素",
+        "preview": "预览"
+      },
+      "colors": {
+        "text": "文本",
+        "text_disabled": "已禁用文本",
+        "window_bg": "窗口背景",
+        "child_bg": "组件背景",
+        "popup_bg": "弹出窗口背景",
+        "border": "边界",
+        "frame_bg": "框架背景",
+        "frame_bg_hovered": "框架背景 (悬停)",
+        "frame_bg_active": "框架背景 (活动)",
+        "title_bg": "标题背景",
+        "title_bg_active": "标题背景 (活动)",
+        "menu_bar_bg": "菜单栏背景",
+        "scrollbar_bg": "滚动条背景",
+        "scrollbar_grab": "滚动条抓住",
+        "scrollbar_grab_hovered": "滚动条抓住 (悬停)",
+        "scrollbar_grab_active": "滚动条抓住 (活动)",
+        "check_mark": "√",
+        "slider_grab": "滑块抓住",
+        "slider_grab_active": "滑块抓住 (活动)",
+        "button": "按钮",
+        "button_hovered": "按钮 (悬停)",
+        "button_active": "按钮 (活动)",
+        "header": "页眉",
+        "header_hovered": "页眉 (悬停)",
+        "header_active": "页眉 (活动)",
+        "separator": "分隔符",
+        "separator_hovered": "分隔符 (悬停)",
+        "separator_active": "分隔符 (活动)",
+        "resize_grip": "调整手柄大小",
+        "resize_grip_hovered": "调整手柄大小 (悬停)",
+        "resize_grip_active": "调整手柄大小 (活动)",
+        "tab": "选项卡",
+        "tab_hovered": "选项卡 (悬停)",
+        "tab_active": "选项卡 (活动)",
+        "tab_selected": "选项卡 (被选择)",
+        "table_header": "表头",
+        "table_border_strong": "标签边界 (粗)",
+        "table_border_light": "标签边界 (细)",
+        "text_selected_bg": "文本选择",
+        "drag_drop_target": "拖放目标",
+        "nav_window_highlight": "导航突出显示",
+        "nav_window_dim_bg": "导航背景 (变暗)",
+        "modal_dim_bg": "模态背景 (变暗)"
+      }
+    },
+    "configs": {
+      "name": "配置",
+      "description": "配置文件管理器",
+      "title": "配置",
+      "reset": "重置配置",
+      "create": "创建配置",
+      "save": "保存",
+      "load": "加载",
+      "delete": "删除",
+      "auto_label": "自动配置（托管型）",
+      "open_dir": "打开配置文件夹"
+    },
+    "hotkeys": {
+      "name": "热键",
+      "description": "管理功能绑定",
+      "search_hint": "搜索...",
+      "toggle_label": "切换",
+      "no_modules": "未注册任何模块。"
+    }
+  },
+  "config": {
+    "widgets": {
+      "toggle_hotkey": "切换热键",
+      "right_click_bindings": "右键绑定",
+      "enter_custom_value": "请输入自定义值："
+    }
+  },
+  "functions": {
+    "world": {
+      "autoloot": {
+        "name": "自动收集",
+        "description": "自动拾取物品并打开宝箱",
+        "warning": "注意：高数值与低延迟存在风险！",
+        "sections": {
+          "auto_pickup": "自动拾取",
+          "auto_treasure": "自动交互",
+          "custom_range": "自定义范围",
+          "looting_speed": "拾取速度",
+          "pickup_filter": "拾取过滤"
+        },
+        "options": {
+          "enabled": "已启用",
+          "auto_disable_when_full": "当背包上限时自动关闭",
+          "chests": "宝箱",
+          "leyline": "地脉花",
+          "search_points": "调查点",
+          "quest_interacts": "任务交互点",
+          "others": "其他",
+          "use_custom_range": "使用自定义范围",
+          "range": "范围 (米)",
+          "delay_time": "延迟时间(毫秒)",
+          "use_delay_fluctuation": "使用随机延迟",
+          "delay_fluctuation": "随机延迟(ms)",
+          "filter_enabled": "启用",
+          "filter_animals": "动物",
+          "filter_drop_items": "掉落道具",
+          "filter_resources": "资源",
+          "filter_oculus": "神瞳"
+        },
+        "tooltips": {
+          "auto_pickup": "自动拾取掉落的物品。\n用于范围拾取和低延迟的拾取是高风险的。"
+        },
+        "status": {
+          "title": "自动收集"
+        }
+      },
+      "autodestroy": {
+        "name": "自动摧毁物体",
+        "description": "自动摧毁范围内的 非生物 物体。",
+        "warning": "注意：此功能未经过充足的测试。\n不建议在主账号上使用，或使用过高的数值。",
+        "options": {
+          "enabled": "已启用",
+          "ores": "矿物",
+          "shields": "护盾",
+          "doodads": "杂物",
+          "special_objects": "特殊对象",
+          "special_chests": "特殊宝箱",
+          "range": "范围 (米)"
+        },
+        "tooltips": {
+          "ores": "矿物及其变种，如：电气水晶、晶化骨髓等。",
+          "shields": "深渊法师/深渊使徒/史莱姆 的护盾",
+          "doodads": "桶、箱、花瓶等。",
+          "special_objects": "摧毁 雪山大冰块、大小石堆。",
+          "special_chests": "摧毁 宝箱上的荆棘、冰块、石头。",
+          "risk_unknown": "风险未知!"
+        },
+        "status": {
+          "label": "摧毁"
+        }
+      },
+      "damageaura": {
+        "name": "伤害光环",
+        "description": "伤害光环持续在你周围构建打击目标列表，并施加瞬发打击。\n作为“杀戮光环”的更轻量化替代方案，实用性颇佳。",
+        "warning": "在后期阶段可能存在风险。",
+        "options": {
+          "enabled": "启用伤害光环",
+          "only_monsters": "仅怪物",
+          "also_gadgets": "也影响小工具",
+          "randomize_delays": "随机延迟",
+          "range": "范围 (米)",
+          "queue_delay": "队列延迟 (毫秒)",
+          "repeat_delay": "重复延迟 (毫秒)",
+          "damage_gauge": "伤害计数器 (U)"
+        },
+        "status": {
+          "label": "伤害光环",
+          "monsters": "怪物",
+          "all_hostiles": "所有敌对势力",
+          "gadgets_on": "开",
+          "gadgets_off": "关"
+        }
+      },
+      "mobvacuum": {
+        "name": "生物吸附",
+        "description": "将附近的敌人移至你的角色身边",
+        "warning": "",
+        "options": {
+          "include_monsters": "包括怪物",
+          "include_animals": "包括动物",
+          "instant_vacuum": "瞬间吸附",
+          "only_target": "只作用于仇恨在你身上的对象",
+          "speed": "速度",
+          "radius": "范围 (米)",
+          "distance": "距离(米)"
+        },
+        "tooltips": {
+          "instant_vacuum": "立即吸入实体。若禁用此功能，生物将按指定速度被吸入。",
+          "only_target": "若启用此功能，吸附效果仅对锁定你的怪物生效，不会影响动物。",
+          "distance": "玩家与怪物之间的距离。"
+        }
+      },
+      "killsaura": {
+        "name": "杀戮光环",
+        "description": "自动消灭周围的敌人",
+        "warning": "在后期可能存在风险",
+        "options": {
+          "type": "杀戮光环类型",
+          "range": "范围 (米)",
+          "attack_delay": "攻击间隔(毫秒)",
+          "only_targeted": "只作用于仇恨在你身上的对象"
+        },
+        "tooltips": {
+          "type": "'Overworld': better in world and safer, DON'T USE IN DUNGEONS!\n'Dungeon': slower than 'Overworld', but works in dungeons.",
+          "only_targeted": "启用后，杀戮光环只会影响对你有仇恨的怪物。"
+        },
+        "status": {
+          "label": "杀戮光环"
+        }
+      },
+      "gamespeed": {
+        "name": "全局加速",
+        "description": "调整Unity时间尺度",
+        "warning": "警告: 不要在开放世界(and endgame)中使用，只能在菜单等地方使用，风险极高!",
+        "options": {
+          "hotkey_mode": "热键模式",
+          "hotkey": "热键",
+          "speed_multiplier": "攻击速度倍率"
+        },
+        "tooltips": {
+          "hotkey_mode": "启用后，全局加速仅在按下热键时生效。\n禁用时，启用该功能后全局加速将始终保持激活状态。",
+          "speed_multiplier": "游戏时间加速倍率。 更高的倍率 = 更快的游戏。"
+        }
+      },
+      "autoseelie": {
+        "name": "自动仙灵",
+        "description": "一旦你首次“激活”仙灵，它就会自动前往目标位置。",
+        "warning": "",
+        "options": {
+          "speedup": "加速仙灵",
+          "auto_start_range": "自动开始范围 (米)"
+        }
+      },
+      "vacuumloot": {
+        "name": "掉落物吸附",
+        "description": "自动将掉落物吸附至玩家处",
+        "warning": "",
+        "options": {
+          "range": "范围 (米)"
+        },
+        "hotkey_hint": "热键可全局切换该功能。"
+      },
+      "autotalk": {
+        "name": "自动对话",
+        "description": "自动进行对话",
+        "warning": "高数值下可能存在风险",
+        "options": {
+          "auto_choose": "自动选择回复",
+          "dialogue_speed": "对话速度"
+        },
+        "tooltips": {
+          "auto_choose": "当出现选项时，自动选择第一个对话选项。",
+          "dialogue_speed": "控制对话中字符的出现速度。\n1.0 = 正常速度, 10.0 = ~10x 加速."
+        },
+        "status": {
+          "label": "自动对话",
+          "auto_choose_suffix": " [自动选择]"
+        }
+      },
+      "elementalaura": {
+        "name": "元素光环",
+        "description": "不断将元素应用于您周围的目标。",
+        "warning": "",
+        "options": {
+          "enabled": "启用元素光环",
+          "only_targeted": "只作用于仇恨在你身上的对象",
+          "hit_objects": "尝试击中所有物体",
+          "smart_element": "智慧元素",
+          "monster_element": "应用于怪物的元素",
+          "object_element": "应用于物体的元素",
+          "aura_range": "光环作用范围",
+          "queue_delay": "队列延迟 (毫秒)",
+          "apply_interval": "应用间隔 (毫秒)",
+          "element_durability": "元素耐久性"
+        },
+        "status": {
+          "label": "元素光环",
+          "aggro": "仇恨",
+          "all": "所有",
+          "obj": "+物体",
+          "smart": "智能",
+          "normal": "普通"
+        },
+        "elements": {
+          "physical": "无元素",
+          "pyro": "火",
+          "hydro": "水",
+          "anemo": "风",
+          "electro": "雷",
+          "dendro": "草",
+          "cryo": "冰",
+          "geo": "岩",
+          "frozen": "冰封",
+          "antifire": "免疫",
+          "vehicleice": "VehicleIce",
+          "mushroom": "蘑菇"
+        }
+      },
+      "skipenhanceanimation": {
+        "name": "跳过强化动画",
+        "description": "加快武器/圣遗物强化对话框的显示速度",
+        "warning": "",
+        "options": {
+          "show_levelup_dialog": "显示升级信息对话框"
+        },
+        "status": {
+          "label": "强化动画: %s",
+          "dialog_only": "仅对话框",
+          "skipped": "已跳过"
+        }
+      },
+      "autochallenge": {
+        "name": "自动挑战",
+        "description": "自动收集限时挑战道具",
+        "warning": "",
+        "options": {
+          "enabled": "启用",
+          "destroy_bomb": "引爆炸药桶",
+          "risk_unknown": "风险未知!",
+          "range": "范围 (米)",
+          "delay": "延迟 (毫秒)",
+          "custom_challenge": "自定义挑战",
+          "enable_custom": "启用自定义挑战",
+          "get_gadget_id_hint": "从实体管理器里面获取Gadget ID",
+          "display_name": "显示的名称",
+          "gadget_id": "Gadget Id",
+          "add": "添加"
+        },
+        "status": {
+          "challenge": "挑战"
+        },
+        "table": {
+          "display_name": "显示的名称",
+          "gadget_id": "Gadget Id",
+          "actions": "行为",
+          "delete": "删除"
+        }
+      },
+      "autocook": {
+        "name": "自动烹饪",
+        "description": "自动烹饪食物",
+        "warning": "",
+        "options": {
+          "enabled": "启用",
+          "enabled_hint": "自动烹饪，如果食谱已经解锁自动烹饪。\n如果未解锁自动烹饪，你需要打开 快速熟练。",
+          "fast_proficiency": "快速熟练",
+          "fast_proficiency_hint": "尽可能快速的将一份未解锁自动烹饪的食物解锁自动烹饪。",
+          "count_item": "数量",
+          "count_item_hint": "一次烹饪多少。\n(仅适用于标准模式。)",
+          "quality": "质量",
+          "quality_hint": "选择烹饪结果的质量",
+          "quality_options": {
+            "suspicious": "奇怪的",
+            "normal": "普通",
+            "delicious": "美味的"
+          }
+        },
+        "status": {
+          "proficiency": "自动烹饪 [熟练程度]",
+          "standard": "自动烹饪 [标准]"
+        }
+      },
+      "autopuzzle": {
+        "name": "自动解谜",
+        "description": "自动解谜",
+        "warning": "",
+        "options": {
+          "enabled": "启用",
+          "enabled_hint": "自动解谜",
+          "range": "范围 (米)",
+          "delay": "延迟 (毫秒)",
+          "general": "通用",
+          "plants": "植物",
+          "seelie": "仙灵",
+          "elem_tablet": "元素方碑",
+          "torch_puzzle": "火炬解谜",
+          "wind_slime": "风史莱姆",
+          "bloatty_floatty": "蓬蓬果",
+          "pot": "锅",
+          "campfire_torch": "火炬",
+          "pressure_plate": "压力石板",
+          "parametric_transformer": "参量质变仪",
+          "mondstadt": "蒙德",
+          "snow_pile": "雪堆",
+          "liyue": "璃月",
+          "windmill_mechanism": "风车",
+          "geogranum": "岩种子",
+          "inazuma": "稻妻",
+          "electro_seelie": "雷灵",
+          "lightning_strike_probe": "雷霆探针",
+          "stormstone": "「雷石」",
+          "electric_conduction": "电气传导",
+          "sumeru": "须弥",
+          "dendro_rock": "草石块",
+          "dendro_pile": "三相众物",
+          "clusterleaf_of_cultivation": "众叶觉蕊",
+          "sumeru_puzzles": "须弥解密",
+          "stone_pillar_seal": "石柱封印",
+          "death_zone_point": "死域瘤",
+          "sand_pile": "松散的沙堆",
+          "daily_commission": "每日委托",
+          "daily_commission_hint": "自动解决一些每日委托，如清洁污渍、落叶等。",
+          "modify_balloon_cart_speed": "修改气球车速度",
+          "modify_balloon_cart_speed_hint": "每日委托：安全运输规则",
+          "time_scale": "时间尺度"
+        },
+        "status": {
+          "auto_puzzle": "自动解谜"
+        }
+      },
+      "autotreefarm": {
+        "name": "自动砍树",
+        "description": "自动攻击范围内的树木",
+        "warning": "注意：这功能未经过充足的测试。\n不建议在主账号上使用，或使用过高的数值。",
+        "options": {
+          "enabled": "启用",
+          "enabled_hint": "自动攻击范围内的树木",
+          "attack_delay": "攻击间隔 (毫秒)",
+          "attack_delay_hint": "攻击下一颗树前的时间间隔(单位:毫秒)",
+          "repeat_delay": "重复间隔 (毫秒)",
+          "repeat_delay_hint": "攻击同一颗树前的时间间隔(单位：毫秒)。\n数值小于 500毫秒 将不生效。",
+          "attacks_per_tree": "每颗树攻击次数",
+          "attacks_per_tree_hint": "一棵树的攻击次数。\n建议设置为10以及更低以避免攻击空树，\n数值设置为0则为无限攻击(即使是空树，无限攻击也是高风险)。\n注意：树的攻击次数在游戏重启后重置。",
+          "range": "范围 (米)",
+          "range_note": "出于安全目的，范围被软限制在 0~15m。"
+        },
+        "status": {
+          "tree_farm": "自动砍树"
+        }
+      },
+      "dumbenemies": {
+        "name": "敌人变傻",
+        "description": "敌人将不会攻击你",
+        "warning": "",
+        "options": {}
+      },
+      "autoactivatetp": {
+        "name": "自动激活传送点",
+        "description": "自动解锁附近的传送点",
+        "warning": "",
+        "options": {
+          "range": "范围 (米)",
+          "delay": "延迟 (毫秒)"
+        }
+      },
+      "musicevent": {
+        "name": "音乐活动",
+        "description": "自动完成音乐活动并获得满分",
+        "warning": "",
+        "options": {}
+      },
+      "entitymanager": {
+        "name": "实体管理器",
+        "description": "查看并管理世界中的所有实体",
+        "warning": "",
+        "options": {
+          "enabled": "启用"
+        },
+        "filters": {
+          "name": "名称筛选器",
+          "use_radius": "按半径过滤",
+          "radius": "范围 (米)",
+          "sort_by": "排序方式",
+          "sort_by_tooltip": "选择列表中实体的排序方式",
+          "type_filters": "过滤类型",
+          "select_all": ",全选",
+          "deselect_all": "全部取消选择",
+          "group_by_type": "按类型分组"
+        },
+        "sort": {
+          "distance": "距离",
+          "name": "名称",
+          "type": "类型",
+          "runtime_id": "运行时ID"
+        },
+        "table": {
+          "actions": "行为",
+          "runtime_id": "运行时ID",
+          "config_id": "配置ID",
+          "name": "名称",
+          "type": "类型",
+          "distance": "距离",
+          "position": "位置"
+        },
+        "action": {
+          "summon": "召唤实体至玩家处",
+          "teleport": "传送玩家至实体处",
+          "banish": "将实体移至地面 (y=0)"
+        },
+        "entity_count": "实体数量: %zu",
+        "no_entities": "未找到任何实体"
+      }
+    },
+    "teleports": {
+      "maptp": {
+        "name": "地图传送",
+        "description": "按住传送键并在地图上点击即可传送至该地点",
+        "warning": "传送有风险！",
+        "options": {
+          "tp_key": "传送键",
+          "detect_ground_height": "检测地面高度",
+          "use_transport_position": "使用传送点",
+          "fallback_height": "备用高度"
+        },
+        "status": {
+          "teleport_key": "传送键: %s",
+          "last": "上一个: %.1f / %.1f / %.1f",
+          "teleport_status": "传送状态: %s",
+          "running": "运行中",
+          "idle": "空闲",
+          "queued": "队列传送到 %.1f / %.1f / %.1f"
+        }
+      },
+      "custom": {
+        "title": "自定义传送",
+        "warning": "传送有风险！",
+        "options": {
+          "auto_teleport": "自动传送",
+          "intelligent_mode": "智能模式",
+          "instant_teleport": "瞬移",
+          "random_delay": "随机延迟",
+          "min_delay": "最小延迟 (秒)",
+          "max_delay": "最大延迟 (秒)",
+          "delay": "延迟 (秒)"
+        },
+        "tooltips": {
+          "instant_teleport": "使用直接位置设置，而不是使用地图传送。\n速度更快，但远距离风险更高。"
+        },
+        "hotkeys": {
+          "section": "热键",
+          "next_node": "下一点位",
+          "prev_node": "上一点位",
+          "add_node": "添加点位"
+        },
+        "files": {
+          "file_name": "文件名",
+          "description": "描述",
+          "create_file": "创建文件",
+          "reload": "重载",
+          "open_folder": "打开文件夹",
+          "table": {
+            "current": "当前",
+            "name": "名称",
+            "description": "描述",
+            "actions": "行为"
+          },
+          "buttons": {
+            "save": "保存",
+            "reset": "重置",
+            "delete": "删除"
+          }
+        },
+        "nodes": {
+          "title": "点位 (%zu)",
+          "add_current": "添加当前位置",
+          "remove_selected": "删除选定点位",
+          "radius": "半径",
+          "remove_nearby": "移除临近点位",
+          "previous_node": "上一点位",
+          "next_node": "下一点位",
+          "table": {
+            "visited": "已到达",
+            "x": "X",
+            "y": "Y",
+            "z": "Z",
+            "selected": "已选择",
+            "actions": "行为",
+            "visited_yes": "是",
+            "visited_no": "否",
+            "teleport": "传送",
+            "delete": "删除"
+          }
+        },
+        "status": {
+          "progress": "进程: %zu / %zu"
+        },
+        "logs": {
+          "avatar_not_loaded": "[自定义传送] 角色未加载",
+          "added_node": "[自定义传送点] 在以下位置添加了节点： %.2f %.2f %.2f"
+        }
+      },
+      "chesttp": {
+        "name": "宝箱传送",
+        "description": "传送至最近的宝箱",
+        "warning": "传送有风险！",
+        "options": {
+          "tp_key": "传送键"
+        },
+        "status": {
+          "title": "传送状态:",
+          "label": "宝箱传送: %s",
+          "not_found": "未找到"
+        }
+      },
+      "oculitp": {
+        "name": "神瞳传送",
+        "description": "传送至最近的神瞳",
+        "warning": "传送有风险！",
+        "options": {
+          "tp_key": "传送键"
+        },
+        "status": {
+          "title": "传送状态::",
+          "label": "神瞳传送: %s",
+          "not_found": "未找到"
+        }
+      },
+      "questtp": {
+        "name": "任务点传送",
+        "description": "传送至正在追踪的任务点",
+        "warning": "传送有风险！",
+        "options": {
+          "tp_key": "传送键"
+        }
+      }
+    },
+    "player": {
+      "worshipstatue": {
+        "name": "供奉神像",
+        "description": "快速提升神像等级并切换旅行者的元素",
+        "warning": "",
+        "options": {
+          "statue_type": "神像类型",
+          "offering_count": "提供数量",
+          "worship": "供奉",
+          "traveler_element": "旅行者的元素",
+          "resonate": "共鸣"
+        },
+        "hotkeys": {
+          "section": "热键",
+          "anemo": "与风元素共鸣",
+          "geo": "与岩元素共鸣",
+          "electro": "与雷元素共鸣",
+          "dendro": "与草元素共鸣",
+          "hydro": "与水元素共鸣",
+          "pyro": "与火元素共鸣"
+        },
+        "status": {
+          "label": "自动供奉已就绪 (%d 物品)"
+        },
+        "statue_types": {
+          "anemoculus": "风神瞳",
+          "geoculus": "岩神瞳",
+          "electroculus": "雷神瞳",
+          "dendroculus": "草神瞳",
+          "hydroculus": "水神瞳",
+          "pyroculus": "火神瞳",
+          "lunaculus": "月神瞳"
+        },
+        "elements": {
+          "wind": "风",
+          "rock": "岩",
+          "electric": "雷",
+          "grass": "草",
+          "hydro": "水",
+          "pyro": "火"
+        },
+        "messages": {
+          "anemo": "与风元素共鸣!",
+          "geo": "与岩元素共鸣!",
+          "electro": "与雷元素共鸣!",
+          "dendro": "与草元素共鸣!",
+          "hydro": "与水元素共鸣!",
+          "pyro": "与火元素共鸣!"
+        }
+      },
+      "attackteammate": {
+        "name": "攻击队友",
+        "description": "允许你在联机模式中攻击队友。",
+        "warning": "",
+        "options": {
+          "enabled": "启用友军伤害辅助功能"
+        },
+        "status": {
+          "label": "友军伤害辅助功能已启用"
+        }
+      },
+      "remoteutility": {
+        "name": "远程工具 (beta)",
+        "description": "Utility helpers: 合成, NPC召唤, 实体生成",
+        "warning": "",
+        "sections": {
+          "crafting": "合成",
+          "summon_npc": "召唤 NPC",
+          "free_spawn": "自由生成"
+        },
+        "options": {
+          "quick_crafting": "快速合成",
+          "condense_resin": "合成浓缩树脂",
+          "spawn_alchemy_table": "生成合成台",
+          "hotkey": "热键",
+          "custom_combine": "自定义合成 (材料 -> 结果)",
+          "material_id": "材料 ID",
+          "result_id": "结果 ID",
+          "count": "数量",
+          "request_combine": "请求合成",
+          "katheryne": "凯瑟琳",
+          "wagner": "铁匠",
+          "cat_prince": "「小王子」",
+          "distance": "距离 (米)",
+          "gadget_id": "道具 ID",
+          "spawn_gadget": "生成 Gadget",
+          "monster_id": "怪物 ID",
+          "spawn_monster": "生成怪物",
+          "npc_id": "NPC ID",
+          "spawn_npc": "生成 NPC",
+          "item_id": "物品 ID",
+          "spawn_item": "生成物品"
+        },
+        "status": {
+          "label": "远程工具: 浓缩[%s] | 合成[%s]"
+        },
+        "messages": {
+          "itemmodule_failed": "获取ItemModule单例失败 (重试?) ",
+          "craft_request_sent": "合成请求已发送",
+          "cooking_not_implemented": "直接烹饪界面的打开功能尚未实现。或许会在未来版本中加入。"
+        }
+      },
+      "attackmodifier": {
+        "name": "攻击修改器",
+        "description": "综合攻击修改器 (多重攻击和 AOE 复制)",
+        "warning": "可能有风险！",
+        "sections": {
+          "rapid_fire": "多重攻击",
+          "aoe": "AOE 复制"
+        },
+        "options": {
+          "rapid_enabled": "启用多重攻击",
+          "multi_hit": "多次命中",
+          "hit_multiplier": "命中倍率",
+          "multi_target": "多目标",
+          "target_radius": "目标半径 (米)",
+          "aoe_enabled": "启用 AOE 复制",
+          "aoe_range": "AOE 范围 (米)"
+        },
+        "status": {
+          "active": "攻击修改器: 生效",
+          "multi_hit": "多重攻击: 多次命中 x%d",
+          "multi_target": "多重攻击: 多目标 %.1fm",
+          "aoe": "AOE 复制半径: %.1fm"
+        }
+      },
+      "enhancedmovement": {
+        "name": "移动增强",
+        "description": "超级跳与闪现",
+        "warning": "",
+        "options": {
+          "jump_boost": "超级跳",
+          "apply_midair": "空中可用",
+          "vertical_velocity": "垂直速度",
+          "blink_hotkey": "闪现热键",
+          "blink_distance": "闪现距离",
+          "target_blink_key": "目标闪现热键",
+          "target_entities": "Target 邻近实体",
+          "target_range": "目标检测范围",
+          "directional_keys": "方向键",
+          "forward": "前",
+          "backward": "后",
+          "left": "左",
+          "right": "右"
+        },
+        "status": {
+          "label": "移动增强已就绪"
+        }
+      },
+      "noclip": {
+        "name": "自由移动",
+        "description": "“飞起来！”",
+        "warning": "",
+        "options": {
+          "speed": "速度",
+          "use_alt_speed": "使用变速",
+          "alt_speed": "变速"
+        }
+      },
+      "infinitystamina": {
+        "name": "无限体力",
+        "description": "无限体力",
+        "warning": "",
+        "options": {
+          "infinite_wanderer": "流浪者无限飞行"
+        }
+      },
+      "infinityultimate": {
+        "name": "无限元素爆发",
+        "description": "立即充满元素爆发能量",
+        "warning": "",
+        "status": {
+          "label": "无限元素爆发已激活"
+        }
+      },
+      "multihit": {
+        "name": "多重命中",
+        "description": "使攻击次数倍增",
+        "warning": "在后期可能有风险!",
+        "options": {
+          "hits": "命中"
+        }
+      },
+      "playerspeed": {
+        "name": "玩家速度",
+        "description": "加快玩家动画速度",
+        "warning": "",
+        "options": {
+          "speed": "速度"
+        }
+      },
+      "noskillcd": {
+        "name": "无技能 CD",
+        "description": "移除技能 CD",
+        "warning": "",
+        "options": {
+          "no_sprint_cd": "无冲刺 CD"
+        }
+      },
+      "walkonwater": {
+        "name": "水上行走",
+        "description": "让你在水上行走",
+        "warning": ""
+      },
+      "godmode": {
+        "name": "无敌",
+        "description": "“你无敌了，孩子”",
+        "warning": ""
+      }
+    },
+    "visuals": {
+      "interactivemap": {
+        "name": "交互式地图",
+        "description": "预览地图标记点与路线完成进度",
+        "warning": "",
+        "open_hint": "打开游戏地图(M键) 来进入完整的交互式地图界面。",
+        "window_title": "交互式地图",
+        "tabs": {
+          "settings": "设置",
+          "filters": "筛选器"
+        },
+        "scene_label": "场景",
+        "no_scenes": "没有可用场景",
+        "options": {
+          "auto_detect_scene": "自动检测当前场景",
+          "show_overlay": "显示 overlay summary",
+          "show_completed": "显示已完成的点位",
+          "show_incomplete": "显示未完成的点位",
+          "marker_size": "标记尺寸"
+        },
+        "labels": {
+          "none": "场景尚未添加标签。",
+          "hidden": "(隐藏)"
+        },
+        "points": {
+          "title": "场景: %u | 位置: %s;",
+          "no_points": "此标签尚未定义任何点。",
+          "table": {
+            "id": "ID",
+            "x": "X",
+            "y": "Y",
+            "status": "状态"
+          },
+          "status_completed": "已完成",
+          "status_pending": "待定",
+          "complete_button": "完成",
+          "uncomplete_button": "未完成"
+        },
+        "overlay": {
+          "title": "交互式地图",
+          "scene": "场景: %s",
+          "label": "标签: %s",
+          "completed": "已完成: %zu / %zu",
+          "no_label": "未选择标签"
+        },
+        "scenes": {
+          "3": "提瓦特",
+          "5": "渊下宫",
+          "6": "层岩巨渊：地下矿区",
+          "9": "金苹果群岛"
+        }
+      },
+      "skipcutscene": {
+        "name": "跳过过场动画",
+        "description": "自动跳过过场动画和游戏影片。",
+        "warning": "",
+        "options": {
+          "hotkey_mode": "热键模式",
+          "toggle_hotkey": "切换热键"
+        },
+        "tooltips": {
+          "hotkey_mode": "启用后，仅在按下热键期间跳过过场动画。\n禁用后, 启用该功能时过场动画将始终被跳过。"
+        },
+        "status": {
+          "label": "跳过过场动画",
+          "hotkey_suffix": " [热键]"
+        }
+      },
+      "fpsunlock": {
+        "name": "FPS帧率解锁",
+        "description": "解锁最高帧率",
+        "warning": "",
+        "options": {
+          "target_fps": "目标帧率"
+        }
+      },
+      "fovchanger": {
+        "name": "视场修改",
+        "description": "更改相机视野",
+        "warning": "",
+        "options": {
+          "target_fov": "目标视野"
+        }
+      },
+      "resincrafter": {
+        "name": "树脂合成",
+        "description": "远程合成 X 个 “浓缩树脂”。\n注意: 你必须拥有足够的资源",
+        "warning": "",
+        "options": {
+          "resin_pieces": "树脂数量",
+          "craft": "合成"
+        }
+      },
+      "skinmodifier": {
+        "name": "皮肤修改器",
+        "description": "本地修改特定角色的皮肤",
+        "warning": "",
+        "status": {
+          "active": "皮肤修改活动状态: %d"
+        },
+        "fallback_avatar": "角色 %u"
+      },
+      "menuunlocker": {
+        "name": "菜单解锁器",
+        "description": "解锁派蒙菜单选项并移除区域边界",
+        "warning": "",
+        "options": {
+          "unlock_paimon": "解锁派蒙菜单选项",
+          "disable_region": "禁用红色区域限制"
+        },
+        "status": {
+          "label": "菜单解锁器已激活",
+          "menu_suffix": " | 菜单",
+          "region_suffix": " | 区域"
+        }
+      },
+      "profilechanger": {
+        "name": "自定义资料卡",
+        "description": "修改可见的个人资料信息和水印",
+        "warning": "",
+        "options": {
+          "override_uid": "覆盖UID水印",
+          "uid_value": "UID",
+          "add_prefix": "添加 \"UID:\" 前缀",
+          "bold_style": "粗体",
+          "italic_style": "斜体",
+          "font_size": "字体大小",
+          "position_x": "X坐标",
+          "position_y": "Y坐标",
+          "update_interval": "更新间隔 (毫秒)",
+          "override_nickname": "覆盖昵称",
+          "nickname": "昵称",
+          "override_adventure_rank": "覆盖冒险等级",
+          "adventure_rank_value": "冒险等级",
+          "override_world_level": "覆盖世界层级",
+          "world_level_value": "世界层级",
+          "override_exp_text": "覆盖经验",
+          "current_exp": "当前经验",
+          "max_exp": "最大经验",
+          "override_exp_bar": "覆盖经验条",
+          "exp_bar_value": "经验条",
+          "custom_avatar_image": "自定义头像图片",
+          "avatar_image_path": "头像图片路径",
+          "custom_namecard_image": "自定义名片图片",
+          "namecard_image_path": "名片图片路径"
+        },
+        "hints": {
+          "images": "图片必须为PNG格式文件 (头像: 256x256, 名片: 840x400)."
+        },
+        "status": {
+          "label": "资料卡修改器已激活",
+          "uid_suffix": " | UID",
+          "images_suffix": " | 图片"
+        }
+      },
+      "graphicschanger": {
+        "name": "图形修改器",
+        "description": "更改某些图形设置",
+        "warning": "",
+        "options": {
+          "gamma": "Gamma",
+          "outline_width": "Outline width",
+          "resolution_scale": "Resolution scale",
+          "reset": "重置"
+        },
+        "tooltip": {
+          "warning": "小心! 数值超过2.0可能导致低端电脑运行游戏时崩溃。 打开并关闭游戏地图以应用更改。"
+        }
+      },
+      "flycloakchanger": {
+        "name": "更换风之翼",
+        "description": "更换你的风之翼。 更改角色以应用。",
+        "warning": "",
+        "options": {
+          "selector_label": "风之翼"
+        },
+        "flycloaks": {
+          "140004": "苍天清风之翼",
+          "140002": "守候之翼",
+          "140006": "雪隐之翼",
+          "140014": "肴馔之翼",
+          "140003": "降临之翼",
+          "140016": "命轨爻错之翼",
+          "140007": "飨宴之翼",
+          "140001": "初始之翼",
+          "140005": "金琮天行之翼",
+          "140012": "慈水怒涛之翼",
+          "140009": "星汉灿烂之翼",
+          "140015": "烈火腾燎之翼",
+          "140010": "森郁花繁之翼",
+          "140011": "星筳之翼",
+          "140008": "雷腾云奔之翼",
+          "140013": "梦生须臾之翼"
+        }
+      },
+      "uncensor": {
+        "name": "移除虚化",
+        "description": "在特定角度下移除镜头虚化",
+        "warning": ""
+      },
+      "openteamimmediately": {
+        "name": "立即打开队伍界面",
+        "description": "允许你立即打开队伍设置",
+        "warning": ""
+      },
+      "instantbowcharge": {
+        "name": "弓箭瞬间蓄力",
+        "description": "弓箭瞬间蓄力",
+        "warning": ""
+      },
+      "hidedamage": {
+        "name": "隐藏伤害文字",
+        "description": "隐藏伤害文字",
+        "warning": "可能无法工作 :("
+      },
+      "constchanger": {
+        "name": "6命解锁",
+        "description": "为角色解锁6命。 更改角色以应用。\n大多数命座不会产生实际影响, 尽管有些仍会。 请勿将其报告为Bug。",
+        "warning": "进入ENDGAME前请关闭!"
+      }
+    }
+  }
+}
